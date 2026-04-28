@@ -1,0 +1,22 @@
+# Personal scratch — never commit (but keep the empty folder visible)
+workspace/*
+!workspace/.gitkeep
+
+# Secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Node (in case anyone runs JS for tooling)
+node_modules/
+
+# Python
+__pycache__/
+*.pyc

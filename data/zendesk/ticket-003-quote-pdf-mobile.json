@@ -1,0 +1,10 @@
+{
+  "id": "TKT-003",
+  "subject": "Quote PDF looks broken when customers open it on phones",
+  "status": "open",
+  "priority": "normal",
+  "submitted_by": { "name": "Stefan Müller", "role": "rep", "company": "Müller Tech Services (DE, SMB)" },
+  "submitted_at": "2026-04-10T15:48:00Z",
+  "tags": ["quotes", "pdf", "mobile", "rendering"],
+  "body": "Two of my customers this week have called me confused because the PDF quote we send doesn't render properly on their phones. The pricing table runs off the edge of the screen and they can't see the totals. One of them said he opened it three times trying to scroll horizontally before giving up and asking for a printout. Can we either fix the PDF formatting or offer a mobile-friendly view? This is making my customers' first impression of our pricing look unprofessional."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "call-001",
+  "date": "2026-04-08T10:30:00Z",
+  "language": "nl",
+  "participants": [
+    { "name": "Sara van den Berg", "role": "rep", "company": "Teamleader" },
+    { "name": "Marcus Pieterse", "role": "customer", "company": "MidMarktCo (NL, mid-market, IT services)" }
+  ],
+  "duration_minutes": 18,
+  "summary": "Follow-up gesprek over de offerte voor het IT-modernisatie traject. Sara belde Marcus om de status door te nemen. Marcus heeft de offerte tweemaal bekeken en bevestigde dat de prijsstelling acceptabel is. Hij is klaar om door te gaan en zal naar verwachting deze week tekenen. Sara plant een korte vervolgcall ter bevestiging.",
+  "transcript": [
+    { "speaker": "rep", "name": "Sara", "ts": "00:00:12", "text": "Hey Marcus, dank dat je tijd hebt. Ik bel even om door te lopen waar we staan met de offerte." },
+    { "speaker": "customer", "name": "Marcus", "ts": "00:00:21", "text": "Ja, geen probleem. Ik heb 'm bekeken — vorige week en ook gisteravond nog even op mijn telefoon." },
+    { "speaker": "rep", "name": "Sara", "ts": "00:00:34", "text": "Oh, dat is goed om te weten. Bij ons in het systeem zie ik 'Offline' staan, dus ik dacht dat je 'm misschien nog niet had geopend." },
+    { "speaker": "customer", "name": "Marcus", "ts": "00:00:48", "text": "Nee hoor, twee keer al. Op de iPad voornamelijk." },
+    { "speaker": "rep", "name": "Sara", "ts": "00:00:56", "text": "Dat probleem zien we bij meer klanten — de status is niet altijd accuraat. Daarom bel ik liever rechtstreeks." },
+    { "speaker": "customer", "name": "Marcus", "ts": "00:01:08", "text": "Goed dat je dat doet. Anders had ik gedacht dat je dachtte dat ik het niet serieus nam." },
+    { "speaker": "rep", "name": "Sara", "ts": "00:01:20", "text": "Precies. Heb je nog vragen over de prijsstelling?" },
+    { "speaker": "customer", "name": "Marcus", "ts": "00:01:31", "text": "Wel — de modules zijn duidelijk maar de implementatie kosten wil ik nog met onze CFO bespreken voor vrijdag." },
+    { "speaker": "rep", "name": "Sara", "ts": "00:01:48", "text": "Begrepen. Zal ik dan maandag een korte call inplannen?" },
+    { "speaker": "customer", "name": "Marcus", "ts": "00:01:59", "text": "Ja graag. Stuur maar een uitnodiging." }
+  ]
+}

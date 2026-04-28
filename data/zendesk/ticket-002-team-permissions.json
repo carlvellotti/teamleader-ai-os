@@ -1,0 +1,10 @@
+{
+  "id": "TKT-002",
+  "subject": "How do I restrict deal visibility to specific team members?",
+  "status": "solved",
+  "priority": "low",
+  "submitted_by": { "name": "Patricia Hayes", "role": "admin", "company": "Hayes Consulting (UK, mid-market)" },
+  "submitted_at": "2026-04-10T11:32:00Z",
+  "tags": ["permissions", "teams", "configuration"],
+  "body": "Hi — we've grown to 14 reps and I want to set up team-based deal visibility so AEs only see their own region's pipeline. I can't find a clear setting for this in the admin panel. Is this a feature, and if so where? If not, what's the workaround? Happy to jump on a call."
+}

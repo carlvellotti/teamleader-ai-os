@@ -1,0 +1,10 @@
+{
+  "id": "TKT-001",
+  "subject": "Calendar sync to Outlook stopped working last week",
+  "status": "open",
+  "priority": "normal",
+  "submitted_by": { "name": "Frederik Janssens", "role": "rep", "company": "Janssens & Co (BE, SMB)" },
+  "submitted_at": "2026-04-09T09:14:00Z",
+  "tags": ["integration", "calendar", "outlook"],
+  "body": "Sinds vorige week donderdag synchroniseren mijn afspraken niet meer met Outlook. Nieuwe afspraken worden niet doorgezet en wijzigingen aan bestaande afspraken ook niet. Ik heb de integratie al opnieuw verbonden maar zonder resultaat. Kunnen jullie hier naar kijken? Het is een dagelijks probleem voor mijn agendabeheer."
+}

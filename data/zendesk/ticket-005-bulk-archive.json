@@ -1,0 +1,10 @@
+{
+  "id": "TKT-005",
+  "subject": "Bulk-archive old quotes from 2024",
+  "status": "solved",
+  "priority": "low",
+  "submitted_by": { "name": "Henri Dubois", "role": "admin", "company": "Dubois Industrie (FR, mid-market)" },
+  "submitted_at": "2026-04-11T16:08:00Z",
+  "tags": ["quotes", "data-management", "bulk-actions"],
+  "body": "We have around 800 closed-or-lost quotes from 2024 cluttering up our search. Is there a way to bulk-archive these without going one by one? I tried the filter view but the archive action only takes one at a time. If this isn't a feature, can it be added to the roadmap?"
+}

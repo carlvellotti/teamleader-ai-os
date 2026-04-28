@@ -1,0 +1,10 @@
+{
+  "id": "TKT-007",
+  "subject": "Cloudsign signature not registering in deal status",
+  "status": "open",
+  "priority": "high",
+  "submitted_by": { "name": "Charlotte Beaumont", "role": "rep", "company": "Beaumont Hospitality (FR, SMB)" },
+  "submitted_at": "2026-04-13T14:45:00Z",
+  "tags": ["quotes", "cloudsign", "signatures", "deal-status"],
+  "body": "A customer signed our proposal via Cloudsign yesterday afternoon. The customer received the confirmation email with their signed copy. However in our deal page the status is still showing as 'Sent' and the activity column shows 'Offline.' I've checked the Cloudsign portal directly and the document is clearly signed. This is the second time this has happened in two weeks. Is the integration breaking? It's making it difficult to trust what the deal page tells me."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "call-008",
+  "date": "2026-04-14T11:00:00Z",
+  "language": "mixed",
+  "participants": [
+    { "name": "Tom Bakker", "role": "rep", "company": "Teamleader" },
+    { "name": "Lisa Hofmann", "role": "customer", "company": "Hofmann Logistics (DE, mid-market, freight forwarding)" }
+  ],
+  "duration_minutes": 19,
+  "summary": "Tom presented the revised proposal to Lisa. Lisa agreed to the proposed timeline and confirmed she would proceed with the contract by the end of the month. She had some questions about the integration with their existing TMS but those were resolved during the call. Next step: contract signature next week.",
+  "transcript": [
+    { "speaker": "rep", "name": "Tom", "ts": "00:00:08", "text": "Lisa, thanks for the time. Did you get a chance to look at the revised proposal?" },
+    { "speaker": "customer", "name": "Lisa", "ts": "00:00:16", "text": "Ja, ich habe es zweimal gelesen — once on the train Monday and again last night." },
+    { "speaker": "rep", "name": "Tom", "ts": "00:00:26", "text": "Goed. My system says 'Offline' so I assumed you hadn't seen it." },
+    { "speaker": "customer", "name": "Lisa", "ts": "00:00:34", "text": "Phone reading I think. Anyway — I have some questions." },
+    { "speaker": "rep", "name": "Tom", "ts": "00:00:41", "text": "Of course." },
+    { "speaker": "customer", "name": "Lisa", "ts": "00:00:46", "text": "The TMS integration — how long does the data migration take? We have five years of records." },
+    { "speaker": "rep", "name": "Tom", "ts": "00:00:58", "text": "Typically four to six weeks for that volume. We can phase it if you want to be operational on the new platform sooner." },
+    { "speaker": "customer", "name": "Lisa", "ts": "00:01:10", "text": "Hmm. Let me think about that with my team. The phasing might be necessary." },
+    { "speaker": "rep", "name": "Tom", "ts": "00:01:21", "text": "Sure. What's your timeline thinking — end of month for a decision?" },
+    { "speaker": "customer", "name": "Lisa", "ts": "00:01:29", "text": "Maybe. I want to discuss with our COO first. He's traveling but back next week." },
+    { "speaker": "rep", "name": "Tom", "ts": "00:01:38", "text": "Understood. Should I plan a follow-up call once you've spoken with him?" },
+    { "speaker": "customer", "name": "Lisa", "ts": "00:01:46", "text": "Ja, please. I'll let you know when." }
+  ]
+}

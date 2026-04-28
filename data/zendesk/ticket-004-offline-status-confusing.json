@@ -1,0 +1,10 @@
+{
+  "id": "TKT-004",
+  "subject": "What does 'Offline' mean in the Cloudsign activity column?",
+  "status": "open",
+  "priority": "low",
+  "submitted_by": { "name": "Roos van Dijk", "role": "rep", "company": "Van Dijk Architecten (NL, SMB)" },
+  "submitted_at": "2026-04-11T10:22:00Z",
+  "tags": ["quotes", "cloudsign", "ux", "documentation"],
+  "body": "I'm relatively new to Teamleader (started last month) and I'm confused by the 'Offline' status that shows up in the activity column on the deal page. Does it mean the customer hasn't opened the quote yet? Does it mean there's a connectivity problem? Does it mean Cloudsign is having an outage? My senior colleague told me to just ignore it and call the customer directly, which is what I've been doing, but I'd like to understand what the system is trying to tell me. Is there documentation on this?"
+}

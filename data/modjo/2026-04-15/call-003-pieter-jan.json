@@ -1,0 +1,28 @@
+{
+  "id": "call-003",
+  "date": "2026-04-10T09:15:00Z",
+  "language": "nl-en",
+  "participants": [
+    { "name": "Pieter Janssens", "role": "rep", "company": "Teamleader" },
+    { "name": "Jan de Koning", "role": "customer", "company": "TechForward BV (NL, SMB, software development)" }
+  ],
+  "duration_minutes": 15,
+  "summary": "Pieter volgt op bij Jan over een offerte die drie dagen geleden is verstuurd. Pieter legt uit dat hij standaard 48 uur na elke offerte belt omdat de tracking in het systeem onbetrouwbaar is. Jan bevestigt dat hij de offerte op zijn telefoon heeft gelezen en positief is over het voorstel. Ze bespreken de volgende stappen richting een proof of concept.",
+  "transcript": [
+    { "speaker": "rep", "name": "Pieter", "ts": "00:00:10", "text": "Hé Jan, met Pieter van Teamleader. Goed moment?" },
+    { "speaker": "customer", "name": "Jan", "ts": "00:00:15", "text": "Ja hoor, prima. Ik had je telefoontje al verwacht eigenlijk." },
+    { "speaker": "rep", "name": "Pieter", "ts": "00:00:20", "text": "Mooi. Ik bel even over de offerte van maandag. Heb je er al naar kunnen kijken?" },
+    { "speaker": "customer", "name": "Jan", "ts": "00:00:27", "text": "Ja, ik heb hem dinsdag al doorgenomen. Zag er goed uit. Ik heb het ook even met het team besproken." },
+    { "speaker": "rep", "name": "Pieter", "ts": "00:00:36", "text": "Top. I should mention — I always call about 48 hours after sending a quote. It's become a habit because, honestly, the tracking in our system isn't always reliable." },
+    { "speaker": "customer", "name": "Jan", "ts": "00:00:48", "text": "Oh, hoe bedoel je?" },
+    { "speaker": "rep", "name": "Pieter", "ts": "00:00:52", "text": "Well, sometimes a customer opens the quote, reads the whole thing, but on my end it still shows as 'Offline' or there's no indication they've looked at it. So rather than rely on the system telling me when to follow up, I just call everyone after two days." },
+    { "speaker": "customer", "name": "Jan", "ts": "00:01:08", "text": "Haha, fair enough. Dat is wel een goede aanpak eigenlijk. Beter dan wachten tot iemand zelf belt." },
+    { "speaker": "rep", "name": "Pieter", "ts": "00:01:16", "text": "Ja precies. En het scheelt ook dat ik dan meteen vragen kan beantwoorden. Heb je trouwens nog vragen over het voorstel?" },
+    { "speaker": "customer", "name": "Jan", "ts": "00:01:25", "text": "Eigenlijk maar één ding. We zouden graag eerst een proof of concept doen voordat we een jaar committeren. Is dat mogelijk?" },
+    { "speaker": "rep", "name": "Pieter", "ts": "00:01:35", "text": "Absoluut. We doen dat vaker. Ik kan een PoC-voorstel voor je opmaken — meestal twee tot vier weken, beperkte scope, en dan kunnen jullie zelf ervaren hoe het werkt." },
+    { "speaker": "customer", "name": "Jan", "ts": "00:01:48", "text": "Klinkt goed. Stuur maar door." },
+    { "speaker": "rep", "name": "Pieter", "ts": "00:01:52", "text": "Doe ik. And I'll call you again two days after — you know the drill now." },
+    { "speaker": "customer", "name": "Jan", "ts": "00:01:58", "text": "Haha, afgesproken. Bedankt Pieter." },
+    { "speaker": "rep", "name": "Pieter", "ts": "00:02:02", "text": "Graag gedaan Jan. Spreek je snel." }
+  ]
+}

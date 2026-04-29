@@ -1,0 +1,14 @@
+{
+  "id": "TKT-005",
+  "subject": "Bulk-archive old quotes from 2024 — is there a way?",
+  "status": "open",
+  "priority": "low",
+  "submitted_by": {
+    "name": "Claire Dumont",
+    "role": "admin",
+    "company": "Atelier Dumont SARL (France, 18 employees)"
+  },
+  "submitted_at": "2026-04-11T15:20:00Z",
+  "tags": ["quotes", "archive", "bulk-actions", "housekeeping"],
+  "body": "Hi,\n\nWe have hundreds of old quotes from 2024 that are still showing up as \"Open\" in our system. They're obviously expired and will never be accepted, but they clutter our quote list and make it harder to find current ones.\n\nIs there a way to bulk-archive or bulk-close quotes? I tried selecting multiple quotes from the list view but there doesn't seem to be a bulk action option. The only thing I can do is go into each quote individually and mark it as lost, which would take forever.\n\nIf there's no built-in feature, is there an API endpoint I could use? I'm comfortable writing a small script if needed.\n\nThanks,\nClaire"
+}

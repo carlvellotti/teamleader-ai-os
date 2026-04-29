@@ -1,0 +1,31 @@
+{
+  "id": "call-004",
+  "date": "2026-04-10T15:45:00Z",
+  "language": "en",
+  "participants": [
+    { "name": "Maaike de Vries", "role": "rep", "company": "Teamleader" },
+    { "name": "Thomas Hargreaves", "role": "customer", "company": "Catalyst Digital (UK, SMB, digital marketing agency)" }
+  ],
+  "duration_minutes": 20,
+  "summary": "Maaike follows up with Thomas about a proposal sent last week. Thomas confirms he read it on his phone during his commute and had questions about the integration section. The system showed the quote as 'Offline.' Maaike expresses her wish for a feature that shows how many times a quote has been opened, which would help her prioritize follow-ups. They discuss the integration timeline and Thomas agrees to send over his technical requirements.",
+  "transcript": [
+    { "speaker": "rep", "name": "Maaike", "ts": "00:00:08", "text": "Hi Thomas, it's Maaike from Teamleader. Do you have a few minutes?" },
+    { "speaker": "customer", "name": "Thomas", "ts": "00:00:13", "text": "Yeah, sure thing. I was actually going to email you today." },
+    { "speaker": "rep", "name": "Maaike", "ts": "00:00:18", "text": "Oh great. I'm calling about the proposal I sent over last Wednesday. I noticed on my end it's showing as 'Offline,' so I wanted to check if you'd had a chance to review it." },
+    { "speaker": "customer", "name": "Thomas", "ts": "00:00:30", "text": "Yeah, I actually read it the same evening on my phone. I was on the train home and went through the whole thing." },
+    { "speaker": "rep", "name": "Maaike", "ts": "00:00:39", "text": "On your phone? That might explain why it's not showing up in our tracking. We use CloudSign for the e-signing flow, and I think mobile views don't always register properly." },
+    { "speaker": "customer", "name": "Thomas", "ts": "00:00:51", "text": "Interesting. So you can't see that I opened it?" },
+    { "speaker": "rep", "name": "Maaike", "ts": "00:00:55", "text": "Exactly. On my screen it just says 'Offline.' There's a 'View activity' link I can click for more detail, but even that doesn't show anything useful when the tracking doesn't pick up the view." },
+    { "speaker": "customer", "name": "Thomas", "ts": "00:01:06", "text": "That seems like a gap. Especially if you're using that to decide when to follow up." },
+    { "speaker": "rep", "name": "Maaike", "ts": "00:01:12", "text": "It really is. Honestly, I wish I could just see a simple view count — like, 'this quote has been opened four times.' That would tell me so much about how engaged someone is. Instead I'm kind of guessing." },
+    { "speaker": "customer", "name": "Thomas", "ts": "00:01:26", "text": "Yeah, we use a similar tool for our own client proposals and the open tracking is really useful. It changes how you frame the follow-up." },
+    { "speaker": "rep", "name": "Maaike", "ts": "00:01:36", "text": "Exactly. If I know someone's read it three times, I know they're interested and I can be more direct. But right now it's a black box. Anyway — since you did read it, what did you think?" },
+    { "speaker": "customer", "name": "Thomas", "ts": "00:01:49", "text": "Overall it looks solid. My main question is about the integration section on page three. You mention API access, but I need to know if that includes webhook support for our project management tool." },
+    { "speaker": "rep", "name": "Maaike", "ts": "00:02:02", "text": "Good question. Yes, we do support webhooks. I can send you the technical documentation so your team can evaluate it." },
+    { "speaker": "customer", "name": "Thomas", "ts": "00:02:12", "text": "That would be great. I'll also send over our list of technical requirements so you can confirm compatibility." },
+    { "speaker": "rep", "name": "Maaike", "ts": "00:02:20", "text": "Perfect. Let's aim to have a technical call next week once we've both reviewed everything?" },
+    { "speaker": "customer", "name": "Thomas", "ts": "00:02:27", "text": "Sounds good. I'll get those requirements to you by Friday." },
+    { "speaker": "rep", "name": "Maaike", "ts": "00:02:32", "text": "Brilliant. Thanks Thomas, talk soon." },
+    { "speaker": "customer", "name": "Thomas", "ts": "00:02:36", "text": "Cheers Maaike." }
+  ]
+}

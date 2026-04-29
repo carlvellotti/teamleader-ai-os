@@ -1,0 +1,28 @@
+{
+  "id": "call-005",
+  "date": "2026-04-11T11:00:00Z",
+  "language": "nl",
+  "participants": [
+    { "name": "Lisa Hofmann", "role": "rep", "company": "Teamleader" },
+    { "name": "Wouter Claes", "role": "customer", "company": "Claes & Partners (BE, SMB, accounting firm)" }
+  ],
+  "duration_minutes": 12,
+  "summary": "Lisa belt Wouter om de prijzen voor het Teamleader Focus pakket te bespreken. Wouter vraagt naar de verschillen tussen het Boost en Grow pakket en of er korting mogelijk is bij jaarlijkse betaling. Lisa legt de pakketten uit en biedt een aangepaste offerte aan. Geen tracking-problemen in dit gesprek.",
+  "transcript": [
+    { "speaker": "rep", "name": "Lisa", "ts": "00:00:06", "text": "Hallo Wouter, met Lisa van Teamleader. Bedankt dat je tijd hebt vandaag." },
+    { "speaker": "customer", "name": "Wouter", "ts": "00:00:12", "text": "Hallo Lisa, geen probleem. Ik had nog wat vragen over de prijzen die op jullie website staan." },
+    { "speaker": "rep", "name": "Lisa", "ts": "00:00:20", "text": "Natuurlijk. Waar kan ik je mee helpen?" },
+    { "speaker": "customer", "name": "Wouter", "ts": "00:00:24", "text": "Ik twijfel tussen het Boost en het Grow pakket. Wat is precies het verschil qua functionaliteit?" },
+    { "speaker": "rep", "name": "Lisa", "ts": "00:00:33", "text": "Goed dat je dat vraagt. Het Boost pakket is ons meest populaire en bevat CRM, projectmanagement en facturering. Het Grow pakket voegt daar marketing automation en geavanceerde rapportages aan toe." },
+    { "speaker": "customer", "name": "Wouter", "ts": "00:00:48", "text": "Oké, en qua prijs? We zijn met vijf gebruikers." },
+    { "speaker": "rep", "name": "Lisa", "ts": "00:00:54", "text": "Voor vijf gebruikers zit je bij Boost op 75 euro per maand, en bij Grow op 110 euro per maand. Allebei exclusief BTW." },
+    { "speaker": "customer", "name": "Wouter", "ts": "00:01:05", "text": "En is er korting als we jaarlijks betalen?" },
+    { "speaker": "rep", "name": "Lisa", "ts": "00:01:10", "text": "Ja, bij jaarlijkse betaling krijg je twee maanden gratis. Dat scheelt dus zo'n 15 procent." },
+    { "speaker": "customer", "name": "Wouter", "ts": "00:01:20", "text": "Dat klinkt interessant. Ik denk dat Boost voldoende is voor ons op dit moment. We doen niet zoveel aan marketing." },
+    { "speaker": "rep", "name": "Lisa", "ts": "00:01:30", "text": "Dat snap ik. Je kunt later altijd upgraden als de behoefte er is. Zal ik een offerte opmaken voor Boost met vijf gebruikers en jaarlijkse facturering?" },
+    { "speaker": "customer", "name": "Wouter", "ts": "00:01:40", "text": "Ja graag. Stuur maar naar mijn email, dan bespreek ik het met mijn vennoten." },
+    { "speaker": "rep", "name": "Lisa", "ts": "00:01:47", "text": "Doe ik. Je ontvangt hem vandaag nog. Heb je verder nog vragen?" },
+    { "speaker": "customer", "name": "Wouter", "ts": "00:01:53", "text": "Nee, dat was het voor nu. Bedankt Lisa." },
+    { "speaker": "rep", "name": "Lisa", "ts": "00:01:57", "text": "Graag gedaan Wouter. Succes en tot snel!" }
+  ]
+}

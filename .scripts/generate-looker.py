@@ -3,10 +3,16 @@
 Generate engineered synthetic Looker quote-engagement data.
 
 Target distributions:
-  - 100 rows, 10 reps × 10 quotes each
+  - 100 rows, 10 reps x 10 quotes each
   - 5 high-clicker reps (click on >50% of quotes), close at ~70%
   - 5 low-clicker reps (click on <20% of quotes), close at ~45%
-  - ~30% of "offline"-labeled rows have cloudsign engagement events (false-offline rate)
+  - ~30% false-offline rate (UI shows "Offline" but CloudSign has real engagement)
+
+CloudSign reality (from API research):
+  - Stages: Made available online -> Viewed -> Feedback -> Signed
+  - Tracks: view count, download count, feedback (free-text from buyer)
+  - Does NOT track: dwell time, per-recipient opens, device info
+  - Single shared URL per quotation (no per-recipient tracking)
 """
 import csv
 import random
@@ -14,20 +20,17 @@ from pathlib import Path
 
 random.seed(42)
 
-# Each rep gets explicit allocations (deterministic, balanced).
-# n_signed = quotes that close
-# n_clicked = quotes the rep clicked "View activity" on
 REPS = [
-    {"id": "rep_001", "name": "Sara van den Berg",  "region": "NL", "tenure": 24, "n_signed": 5, "n_clicked": 7, "high_clicker": True},
-    {"id": "rep_002", "name": "Pieter Janssens",    "region": "BE", "tenure": 8,  "n_signed": 2, "n_clicked": 2, "high_clicker": False},
-    {"id": "rep_003", "name": "David O'Connor",     "region": "UK", "tenure": 36, "n_signed": 6, "n_clicked": 8, "high_clicker": True},
-    {"id": "rep_004", "name": "Maaike de Vries",    "region": "NL", "tenure": 12, "n_signed": 5, "n_clicked": 6, "high_clicker": True},
-    {"id": "rep_005", "name": "Eric Larsson",       "region": "DE", "tenure": 48, "n_signed": 5, "n_clicked": 7, "high_clicker": True},
-    {"id": "rep_006", "name": "Lisa Hofmann",       "region": "FR", "tenure": 18, "n_signed": 3, "n_clicked": 2, "high_clicker": False},
-    {"id": "rep_007", "name": "Anna Smit",          "region": "NL", "tenure": 4,  "n_signed": 2, "n_clicked": 1, "high_clicker": False},
-    {"id": "rep_008", "name": "Mark Devos",         "region": "BE", "tenure": 30, "n_signed": 5, "n_clicked": 6, "high_clicker": True},
-    {"id": "rep_009", "name": "Sofia Klein",        "region": "DE", "tenure": 14, "n_signed": 3, "n_clicked": 2, "high_clicker": False},
-    {"id": "rep_010", "name": "Tom Bakker",         "region": "UK", "tenure": 6,  "n_signed": 2, "n_clicked": 2, "high_clicker": False},
+    {"id": "rep_001", "name": "Sara van den Berg",  "region": "NL", "tenure": 24, "n_signed": 7, "n_clicked": 8, "high_clicker": True},
+    {"id": "rep_002", "name": "Pieter Janssens",    "region": "BE", "tenure": 8,  "n_signed": 4, "n_clicked": 2, "high_clicker": False},
+    {"id": "rep_003", "name": "David O'Connor",     "region": "UK", "tenure": 36, "n_signed": 7, "n_clicked": 8, "high_clicker": True},
+    {"id": "rep_004", "name": "Maaike de Vries",    "region": "NL", "tenure": 12, "n_signed": 6, "n_clicked": 7, "high_clicker": True},
+    {"id": "rep_005", "name": "Eric Larsson",       "region": "DE", "tenure": 48, "n_signed": 7, "n_clicked": 8, "high_clicker": True},
+    {"id": "rep_006", "name": "Lisa Hofmann",       "region": "FR", "tenure": 18, "n_signed": 5, "n_clicked": 2, "high_clicker": False},
+    {"id": "rep_007", "name": "Anna Smit",          "region": "NL", "tenure": 4,  "n_signed": 4, "n_clicked": 1, "high_clicker": False},
+    {"id": "rep_008", "name": "Mark Devos",         "region": "BE", "tenure": 30, "n_signed": 7, "n_clicked": 7, "high_clicker": True},
+    {"id": "rep_009", "name": "Sofia Klein",        "region": "DE", "tenure": 14, "n_signed": 4, "n_clicked": 2, "high_clicker": False},
+    {"id": "rep_010", "name": "Tom Bakker",         "region": "UK", "tenure": 6,  "n_signed": 4, "n_clicked": 2, "high_clicker": False},
 ]
 
 ACCOUNT_SIZE_DIST = [("smb", 0.50), ("mid", 0.35), ("enterprise", 0.15)]
@@ -61,13 +64,10 @@ rows = []
 quote_id = 1
 
 for rep in REPS:
-    # 10 quotes per rep. Allocate which are signed and which are clicked.
     quote_indices = list(range(10))
 
     signed_indices = set(random.sample(quote_indices, rep["n_signed"]))
 
-    # Clicked indices should overlap heavily with signed (clicking correlates with closing).
-    # 70% of clicked quotes are also signed.
     clicked_pool_signed = list(signed_indices)
     random.shuffle(clicked_pool_signed)
     n_clicked_from_signed = min(rep["n_clicked"], int(0.7 * rep["n_clicked"]) + 1)
@@ -88,24 +88,46 @@ for rep in REPS:
             if clicked else 0
         )
 
-        # Cloudsign event: real customer engagement.
-        # Signed quotes always have cloudsign signal (signed event).
-        # Of unsigned: ~45% had real engagement (opened/viewed_long), rest none.
+        # CloudSign status: real customer engagement.
+        # Maps to CloudSign's actual stages: none -> online -> viewed -> feedback -> signed
         if signed:
-            cloudsign_event = "signed"
+            cloudsign_status = "signed"
+            view_count = random.randint(2, 8)
+            download_count = random.choices([0, 1, 2], [0.3, 0.5, 0.2])[0]
+            has_feedback = random.random() < 0.15
         elif random.random() < 0.45:
-            cloudsign_event = random.choice(["opened", "viewed_long"])
+            # Real engagement but not signed
+            cloudsign_status = "viewed"
+            view_count = random.choices([1, 2, 3, 4, 5, 6, 7], [0.25, 0.25, 0.20, 0.12, 0.08, 0.05, 0.05])[0]
+            download_count = random.choices([0, 1, 2], [0.6, 0.3, 0.1])[0]
+            has_feedback = random.random() < 0.10
         else:
-            cloudsign_event = "none"
+            # No engagement OR only made available
+            if random.random() < 0.3:
+                cloudsign_status = "online"
+                view_count = 0
+            else:
+                cloudsign_status = "none"
+                view_count = 0
+            download_count = 0
+            has_feedback = False
 
-        # UI status:
-        # - signed → "opened" (UI catches up after signature)
-        # - cloudsign opened/viewed_long → ~50% show "offline" anyway (the bug) — false-offline rate
-        # - cloudsign none → mostly "offline" (correctly), some "online"
-        if cloudsign_event == "signed":
-            ui_status = "opened"
-        elif cloudsign_event in ("opened", "viewed_long"):
+        # Upgrade status to feedback if feedback exists
+        if has_feedback and cloudsign_status in ("viewed", "signed"):
+            if cloudsign_status == "viewed":
+                cloudsign_status = "feedback"
+
+        # UI status shown on deal page:
+        # - signed -> usually "opened" (UI catches up), but ~10% still show "offline" (sync lag)
+        # - viewed/feedback -> ~50% show "offline" anyway (the bug/false-offline rate)
+        # - online -> shows "online"
+        # - none -> mostly "offline", some "online"
+        if cloudsign_status == "signed":
+            ui_status = "offline" if random.random() < 0.10 else "opened"
+        elif cloudsign_status in ("viewed", "feedback"):
             ui_status = "offline" if random.random() < 0.50 else random.choice(["opened", "online"])
+        elif cloudsign_status == "online":
+            ui_status = "online"
         else:
             ui_status = "offline" if random.random() < 0.85 else "online"
 
@@ -124,7 +146,10 @@ for rep in REPS:
             "view_activity_click_count": click_count,
             "view_activity_clicked": clicked,
             "ui_status_shown": ui_status,
-            "cloudsign_event": cloudsign_event,
+            "cloudsign_status": cloudsign_status,
+            "cloudsign_view_count": view_count,
+            "cloudsign_download_count": download_count,
+            "cloudsign_feedback": has_feedback,
             "quote_signed": signed,
             "time_to_signed_days": time_to_signed,
         })
@@ -150,7 +175,12 @@ def summary(rows):
     low_close = close_rate(low)
 
     offline = [r for r in rows if r["ui_status_shown"] == "offline"]
-    false_offline = [r for r in offline if r["cloudsign_event"] in ("opened", "viewed_long")]
+    false_offline = [r for r in offline if r["cloudsign_status"] in ("viewed", "feedback", "signed")]
+
+    viewed = [r for r in rows if r["cloudsign_view_count"] > 0]
+    high_view = [r for r in viewed if r["cloudsign_view_count"] >= 3]
+    downloaded = [r for r in rows if r["cloudsign_download_count"] > 0]
+    feedback = [r for r in rows if r["cloudsign_feedback"]]
 
     print(f"Total rows: {len(rows)}")
     print(f"High-clicker close rate: {high_close:.1%} ({sum(1 for r in high if r['quote_signed'])}/{len(high)})")
@@ -158,6 +188,10 @@ def summary(rows):
     print(f"Gap: {(high_close - low_close)*100:.1f}pp")
     print(f"Total 'offline' rows: {len(offline)}")
     print(f"False-offline rows: {len(false_offline)} ({len(false_offline)/len(offline):.1%} of offline rows)")
+    print(f"Quotes with views: {len(viewed)} (avg {sum(r['cloudsign_view_count'] for r in viewed)/len(viewed):.1f} views)")
+    print(f"Quotes with 3+ views: {len(high_view)}")
+    print(f"Quotes with downloads: {len(downloaded)}")
+    print(f"Quotes with feedback: {len(feedback)}")
 
 
 if __name__ == "__main__":

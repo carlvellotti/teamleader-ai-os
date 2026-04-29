@@ -7,17 +7,24 @@
     { "name": "Marcus Pieterse", "role": "customer", "company": "MidMarktCo (NL, mid-market, IT services)" }
   ],
   "duration_minutes": 18,
-  "summary": "Follow-up gesprek over de offerte voor het IT-modernisatie traject. Sara belde Marcus om de status door te nemen. Marcus heeft de offerte tweemaal bekeken en bevestigde dat de prijsstelling acceptabel is. Hij is klaar om door te gaan en zal naar verwachting deze week tekenen. Sara plant een korte vervolgcall ter bevestiging.",
+  "summary": "Sara belt Marcus om de status van zijn offerte te bespreken. Marcus geeft aan dat hij de offerte drie keer heeft bekeken op zijn iPad en twee opmerkingen heeft over de prijsstructuur. Sara merkt op dat het systeem de offerte als 'Offline' toont, wat tegenstrijdig is met wat Marcus vertelt. Ze bespreken de voorwaarden en Marcus vraagt om een aangepaste versie met maandelijkse facturering.",
   "transcript": [
-    { "speaker": "rep", "name": "Sara", "ts": "00:00:12", "text": "Hey Marcus, dank dat je tijd hebt. Ik bel even om door te lopen waar we staan met de offerte." },
-    { "speaker": "customer", "name": "Marcus", "ts": "00:00:21", "text": "Ja, geen probleem. Ik heb 'm bekeken — vorige week en ook gisteravond nog even op mijn telefoon." },
-    { "speaker": "rep", "name": "Sara", "ts": "00:00:34", "text": "Oh, dat is goed om te weten. Bij ons in het systeem zie ik 'Offline' staan, dus ik dacht dat je 'm misschien nog niet had geopend." },
-    { "speaker": "customer", "name": "Marcus", "ts": "00:00:48", "text": "Nee hoor, twee keer al. Op de iPad voornamelijk." },
-    { "speaker": "rep", "name": "Sara", "ts": "00:00:56", "text": "Dat probleem zien we bij meer klanten — de status is niet altijd accuraat. Daarom bel ik liever rechtstreeks." },
-    { "speaker": "customer", "name": "Marcus", "ts": "00:01:08", "text": "Goed dat je dat doet. Anders had ik gedacht dat je dachtte dat ik het niet serieus nam." },
-    { "speaker": "rep", "name": "Sara", "ts": "00:01:20", "text": "Precies. Heb je nog vragen over de prijsstelling?" },
-    { "speaker": "customer", "name": "Marcus", "ts": "00:01:31", "text": "Wel — de modules zijn duidelijk maar de implementatie kosten wil ik nog met onze CFO bespreken voor vrijdag." },
-    { "speaker": "rep", "name": "Sara", "ts": "00:01:48", "text": "Begrepen. Zal ik dan maandag een korte call inplannen?" },
-    { "speaker": "customer", "name": "Marcus", "ts": "00:01:59", "text": "Ja graag. Stuur maar een uitnodiging." }
+    { "speaker": "rep", "name": "Sara", "ts": "00:00:12", "text": "Goedemorgen Marcus, met Sara van Teamleader. Hoe gaat het?" },
+    { "speaker": "customer", "name": "Marcus", "ts": "00:00:18", "text": "Goed hoor Sara, druk maar goed. Ik verwachtte je telefoontje eigenlijk al." },
+    { "speaker": "rep", "name": "Sara", "ts": "00:00:25", "text": "Mooi zo. Ik wilde even checken hoe het staat met de offerte die ik vorige week heb gestuurd. Heb je al kans gehad om ernaar te kijken?" },
+    { "speaker": "customer", "name": "Marcus", "ts": "00:00:34", "text": "Ja, absoluut. Ik heb hem twee keer doorgelezen eigenlijk. De eerste keer op mijn iPad dinsdag, en toen nog een keer woensdag om de details te checken." },
+    { "speaker": "rep", "name": "Sara", "ts": "00:00:45", "text": "Oh interessant, want bij mij in het systeem staat hij nog als 'Offline'. Ik dacht eigenlijk dat je hem misschien nog niet had geopend." },
+    { "speaker": "customer", "name": "Marcus", "ts": "00:00:54", "text": "Nee hoor, zeker wel. Ik heb hem op mijn iPad geopend via de link in de email. Werkt dat dan anders?" },
+    { "speaker": "rep", "name": "Sara", "ts": "00:01:03", "text": "Dat zou eigenlijk niet moeten uitmaken, maar ik zie het vaker dat het bij iPads of tablets niet goed wordt geregistreerd. Even voor de zekerheid — je hebt de offerte dus goed kunnen lezen?" },
+    { "speaker": "customer", "name": "Marcus", "ts": "00:01:15", "text": "Ja hoor, alles was prima leesbaar. Ik heb zelfs screenshots gemaakt om het met mijn zakenpartner te bespreken." },
+    { "speaker": "rep", "name": "Sara", "ts": "00:01:24", "text": "Top. En wat vonden jullie ervan? Zijn er punten waar je vragen over hebt?" },
+    { "speaker": "customer", "name": "Marcus", "ts": "00:01:32", "text": "Ja, eigenlijk één ding. De prijsstructuur op pagina twee — die jaarlijkse facturering is wat lastig voor ons cashflow-technisch. Is er een optie voor maandelijkse betaling?" },
+    { "speaker": "rep", "name": "Sara", "ts": "00:01:48", "text": "Zeker, dat kan ik voor je aanpassen. Er zit dan wel een kleine toeslag op, maar ik stuur je een aangepaste versie." },
+    { "speaker": "customer", "name": "Marcus", "ts": "00:01:57", "text": "Dat klinkt goed. En nog iets — de implementatietijdlijn. Staat er zes weken? Kan dat korter?" },
+    { "speaker": "rep", "name": "Sara", "ts": "00:02:08", "text": "Zes weken is standaard, maar afhankelijk van jullie beschikbaarheid kunnen we het soms in vier weken doen. Dat neem ik mee in de nieuwe offerte." },
+    { "speaker": "customer", "name": "Marcus", "ts": "00:02:20", "text": "Perfect. Stuur maar door, dan bespreek ik het weer met Peter." },
+    { "speaker": "rep", "name": "Sara", "ts": "00:02:28", "text": "Doe ik. Ik zal deze keer even bellen zodra ik hem verstuurd heb, want dat offline-gedoe is een beetje verwarrend. Dan weet ik tenminste zeker dat je hem hebt." },
+    { "speaker": "customer", "name": "Marcus", "ts": "00:02:38", "text": "Haha, ja goed idee. Bedankt Sara." },
+    { "speaker": "rep", "name": "Sara", "ts": "00:02:42", "text": "Graag gedaan Marcus. Ik spreek je snel!" }
   ]
 }

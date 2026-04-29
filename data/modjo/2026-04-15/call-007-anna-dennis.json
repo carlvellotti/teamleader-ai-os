@@ -1,0 +1,30 @@
+{
+  "id": "call-007",
+  "date": "2026-04-14T10:00:00Z",
+  "language": "nl",
+  "participants": [
+    { "name": "Anna Smit", "role": "rep", "company": "Teamleader" },
+    { "name": "Dennis van Dijk", "role": "customer", "company": "VanDijk Logistics (NL, mid-market, logistics & warehousing)" }
+  ],
+  "duration_minutes": 25,
+  "summary": "Anna belt Dennis over een deal waarvoor ze drie offertes heeft gestuurd: een basisversie, een uitgebreide versie met WMS-integratie, en een enterprise versie. Dennis geeft aan dat hij de uitgebreide versie het meest interessant vindt maar het systeem toont alle drie als 'Offline.' Anna kan niet zien welke offerte Dennis het meest heeft bekeken en moet het hem direct vragen. Dennis bevestigt dat hij optie twee meerdere keren heeft gelezen maar optie drie niet heeft geopend.",
+  "transcript": [
+    { "speaker": "rep", "name": "Anna", "ts": "00:00:08", "text": "Goedemorgen Dennis, met Anna van Teamleader. Hoe gaat het?" },
+    { "speaker": "customer", "name": "Dennis", "ts": "00:00:14", "text": "Goedemorgen Anna. Goed hoor, druk met het seizoen. Maar ik heb tijd gemaakt voor dit gesprek." },
+    { "speaker": "rep", "name": "Anna", "ts": "00:00:22", "text": "Fijn. Ik wilde het hebben over de drie offertes die ik vorige week heb gestuurd. Je hebt optie A — het basispakket, optie B — met de WMS-integratie, en optie C — de enterprise versie. Heb je ze kunnen bekijken?" },
+    { "speaker": "customer", "name": "Dennis", "ts": "00:00:40", "text": "Ja, ik heb ze niet allemaal even goed bekeken eerlijk gezegd. Optie B heb ik meerdere keren gelezen omdat die het meest aansluit bij wat we nodig hebben. Die WMS-integratie is echt belangrijk voor ons." },
+    { "speaker": "rep", "name": "Anna", "ts": "00:00:55", "text": "Goed om te horen. En optie A en C?" },
+    { "speaker": "customer", "name": "Dennis", "ts": "00:01:02", "text": "Optie A heb ik kort bekeken maar die is te beperkt. En optie C heb ik eerlijk gezegd niet eens geopend. Dat is te veel voor waar we nu staan." },
+    { "speaker": "rep", "name": "Anna", "ts": "00:01:14", "text": "Oké, dat is heel helder. Ik moet eerlijk zeggen — ik kon dat niet uit het systeem halen. Bij mij staan alle drie de offertes als 'Offline.' Ik kan niet zien welke je hebt geopend en welke niet." },
+    { "speaker": "customer", "name": "Dennis", "ts": "00:01:28", "text": "Serieus? Dus als ik niet had verteld dat ik optie B het beste vind, had je dat niet geweten?" },
+    { "speaker": "rep", "name": "Anna", "ts": "00:01:35", "text": "Nee, precies. Ik had het moeten raden of gewoon alledrie opnieuw moeten doorlopen aan de telefoon. Dat is ook een beetje waarom ik bel — ik wilde gewoon direct van jou horen waar je interesse ligt." },
+    { "speaker": "customer", "name": "Dennis", "ts": "00:01:48", "text": "Tja, dat is wel een beetje zonde. Als jullie dat wel konden zien, had je meteen geweten dat je op optie B moest focussen." },
+    { "speaker": "rep", "name": "Anna", "ts": "00:01:58", "text": "Precies. Maar goed, nu weet ik het. Laten we optie B als uitgangspunt nemen. Heb je specifieke vragen over de WMS-koppeling?" },
+    { "speaker": "customer", "name": "Dennis", "ts": "00:02:08", "text": "Ja, een paar. Ten eerste, werkt het met ons huidige WMS — dat is Exact Online Warehouse. En ten tweede, hoe lang duurt de implementatie van die koppeling?" },
+    { "speaker": "rep", "name": "Anna", "ts": "00:02:22", "text": "Exact Online Warehouse is een standaard integratie voor ons, dus dat zit goed. De implementatie van de koppeling duurt meestal drie tot vier weken, afhankelijk van de complexiteit van jullie setup." },
+    { "speaker": "customer", "name": "Dennis", "ts": "00:02:36", "text": "Dat klinkt prima. Kunnen we een technisch gesprek inplannen met jullie implementatieteam? Dan kan ik onze IT-manager erbij halen." },
+    { "speaker": "rep", "name": "Anna", "ts": "00:02:46", "text": "Absoluut. Ik stuur je een paar opties voor volgende week. En dan focus ik de aangepaste offerte helemaal op optie B met de WMS-details." },
+    { "speaker": "customer", "name": "Dennis", "ts": "00:02:56", "text": "Top, dat klinkt goed. Bedankt Anna." },
+    { "speaker": "rep", "name": "Anna", "ts": "00:03:00", "text": "Graag gedaan Dennis. Fijn dat we nu weten waar we staan. Spreek je snel!" }
+  ]
+}

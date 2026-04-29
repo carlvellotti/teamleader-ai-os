@@ -1,0 +1,14 @@
+{
+  "id": "TKT-008",
+  "subject": "Feature request: show inline engagement metrics in the Quotations table instead of hiding them in a popover",
+  "status": "open",
+  "priority": "normal",
+  "submitted_by": {
+    "name": "James Hartley",
+    "role": "admin",
+    "company": "Meridian Property Group (UK, 60 employees)"
+  },
+  "submitted_at": "2026-04-14T09:22:00Z",
+  "tags": ["customization", "quotes", "deal-page", "feature-request"],
+  "body": "Hi Teamleader team,\n\nI'd like to submit a feature request regarding the Quotations table on the deal page.\n\nRight now, the table shows a Status column (Open/Sent/Accepted) and each row has a \"View activity\" link with a label like Online/Viewed/Offline. But the actually useful engagement data — how many times the quote was viewed, when it was last opened, whether it was downloaded, and whether any feedback was left — is all buried inside a popover that only appears when you click \"View activity.\"\n\nThe View activity link buries the signal behind a click. When I'm managing 30+ active deals and trying to prioritize follow-ups, I need to see at a glance which quotes are hot (viewed 5 times in the last 2 days) versus cold (sent a week ago, never opened). Currently that requires clicking into every single quote's activity popover one by one.\n\nWhat I'd love to see:\n- A \"Views\" column showing the view count directly in the table\n- A \"Last opened\" column showing something like \"2 days ago\" or \"Apr 12\"\n- Maybe a small icon if the document was downloaded or if feedback was submitted\n\nEssentially, let me customize what the activity column shows so the most actionable data is visible at scan level, not behind a click. This would save our reps significant time during pipeline reviews and morning stand-ups.\n\nHappy to jump on a call to walk through our workflow if that helps.\n\nBest regards,\nJames Hartley\nHead of Sales Operations"
+}

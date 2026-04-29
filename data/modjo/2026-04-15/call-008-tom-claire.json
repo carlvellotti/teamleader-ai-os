@@ -1,0 +1,30 @@
+{
+  "id": "call-008",
+  "date": "2026-04-14T14:30:00Z",
+  "language": "nl-en",
+  "participants": [
+    { "name": "Tom Bakker", "role": "rep", "company": "Teamleader" },
+    { "name": "Claire Dubois", "role": "customer", "company": "AtelierNord (BE, SMB, interior design studio)" }
+  ],
+  "duration_minutes": 16,
+  "summary": "Tom volgt op bij Claire over een offerte die eerder deze week is verstuurd. Claire bevestigt dat ze het document vandaag drie keer heeft geopend om het met haar team te bespreken, en ze heeft vragen over de onboarding-kosten. Het systeem toont de offerte echter als 'Offline,' wat niet overeenkomt met Claire's beschrijving. Tom belooft de onboarding-kosten te verduidelijken en een aangepaste offerte te sturen.",
+  "transcript": [
+    { "speaker": "rep", "name": "Tom", "ts": "00:00:06", "text": "Hallo Claire, met Tom van Teamleader. Heb je even?" },
+    { "speaker": "customer", "name": "Claire", "ts": "00:00:11", "text": "Hoi Tom, ja hoor. Perfect timing eigenlijk, ik zat net naar jullie offerte te kijken." },
+    { "speaker": "rep", "name": "Tom", "ts": "00:00:18", "text": "Oh mooi. Dat is precies waarover ik belde. Bij mij in het systeem staat de offerte als 'Offline,' dus ik dacht — laat ik even checken." },
+    { "speaker": "customer", "name": "Claire", "ts": "00:00:28", "text": "Offline? Dat klopt niet hoor. Ik heb hem twee keer gelezen. De eerste keer gisteren, and then again this morning when I was going through it with my business partner." },
+    { "speaker": "rep", "name": "Tom", "ts": "00:00:40", "text": "Hmm, dat is vreemd. Laat me even in de View Activity kijken... Nee, er staat echt niets. Geen 'Viewed' status, niets." },
+    { "speaker": "customer", "name": "Claire", "ts": "00:00:52", "text": "Maar ik heb het echt geopend. Via de link in de email. Allebei de keren op mijn laptop. Is er iets mis met jullie tracking?" },
+    { "speaker": "rep", "name": "Tom", "ts": "00:01:02", "text": "Eerlijk gezegd hoor ik dit vaker van klanten. De CloudSign tracking pikt het niet altijd goed op. Especially with certain browsers or when people have strict privacy settings." },
+    { "speaker": "customer", "name": "Claire", "ts": "00:01:16", "text": "I do use Firefox with some privacy extensions. Could that be it?" },
+    { "speaker": "rep", "name": "Tom", "ts": "00:01:22", "text": "Dat zou heel goed kunnen. In ieder geval — je hebt de offerte gelezen, dat is het belangrijkste. Wat vind je ervan?" },
+    { "speaker": "customer", "name": "Claire", "ts": "00:01:32", "text": "Het ziet er goed uit overall. Eén vraag — de onboarding-kosten op pagina twee. Er staat 1.500 euro maar het is niet helemaal duidelijk wat daar allemaal bij inbegrepen is." },
+    { "speaker": "rep", "name": "Tom", "ts": "00:01:46", "text": "Goeie vraag. Dat omvat de initiële setup, datamigratie, en twee trainingssessies voor je team. Ik kan dat gedetailleerder uitschrijven in een aangepaste offerte." },
+    { "speaker": "customer", "name": "Claire", "ts": "00:01:58", "text": "Yes please. And can you also include an option without the data migration? We might handle that ourselves." },
+    { "speaker": "rep", "name": "Tom", "ts": "00:02:08", "text": "Absoluut. Dan maak ik twee varianten — één met en één zonder datamigratie. Heb je verder nog vragen?" },
+    { "speaker": "customer", "name": "Claire", "ts": "00:02:17", "text": "Nee, dat was het. Stuur het maar door, dan bespreken we het intern." },
+    { "speaker": "rep", "name": "Tom", "ts": "00:02:23", "text": "Top. Ik heb het morgen bij je. En Claire — als je hem opent en er staat weer 'Offline' bij mij, weet ik nu in ieder geval dat dat niets zegt." },
+    { "speaker": "customer", "name": "Claire", "ts": "00:02:33", "text": "Haha, precies. Bedankt Tom." },
+    { "speaker": "rep", "name": "Tom", "ts": "00:02:36", "text": "Graag gedaan. Tot snel!" }
+  ]
+}

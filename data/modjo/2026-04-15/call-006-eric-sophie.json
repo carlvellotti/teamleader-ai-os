@@ -1,0 +1,28 @@
+{
+  "id": "call-006",
+  "date": "2026-04-11T16:30:00Z",
+  "language": "en",
+  "participants": [
+    { "name": "Eric Larsson", "role": "rep", "company": "Teamleader" },
+    { "name": "Sophie Müller", "role": "customer", "company": "GreenLeaf Ventures (DE, mid-market, sustainability consulting)" }
+  ],
+  "duration_minutes": 22,
+  "summary": "Eric follows up with Sophie about a proposal she shared with her colleagues. Sophie says she forwarded the quote link to three colleagues, but only one has responded. Eric incorrectly explains that each recipient gets a unique tracking link, which is why he can see individual engagement. In reality, CloudSign uses a single shared URL per quotation. Sophie asks about the signing workflow for multiple stakeholders and they agree to schedule a demo for her wider team.",
+  "transcript": [
+    { "speaker": "rep", "name": "Eric", "ts": "00:00:10", "text": "Sophie, hi! Eric from Teamleader. Thanks for making time today." },
+    { "speaker": "customer", "name": "Sophie", "ts": "00:00:15", "text": "Hi Eric. Yes, I wanted to update you. I forwarded the quotation to three of my colleagues last week — Markus in finance, Claudia in operations, and our CTO Jonas." },
+    { "speaker": "rep", "name": "Eric", "ts": "00:00:28", "text": "Great, that's good to hear. Let me check the activity on our end... So I can see the quote was viewed, but the status column just shows 'Sent,' which isn't super helpful." },
+    { "speaker": "customer", "name": "Sophie", "ts": "00:00:42", "text": "Can you tell who opened it?" },
+    { "speaker": "rep", "name": "Eric", "ts": "00:00:46", "text": "Well, the way CloudSign works is that the link is per-recipient. So when you forward it, each person who clicks it should generate their own tracking event. Let me look at the activity popover..." },
+    { "speaker": "customer", "name": "Sophie", "ts": "00:01:00", "text": "So you can see that Markus and Claudia opened it separately?" },
+    { "speaker": "rep", "name": "Eric", "ts": "00:01:05", "text": "In theory, yes. But honestly, the activity view just shows me generic stages — 'Online,' 'Viewed,' things like that. It doesn't break it down by person in a way that's easy to read. I can see it was viewed, but I can't confidently tell you which of your colleagues actually engaged with it." },
+    { "speaker": "customer", "name": "Sophie", "ts": "00:01:24", "text": "That's a shame. Markus told me he read it carefully and has questions about the payment terms. Claudia hasn't mentioned it. And I haven't heard from Jonas at all." },
+    { "speaker": "rep", "name": "Eric", "ts": "00:01:38", "text": "Good to know. So at least Markus is engaged. I can set up a separate call with him to walk through the financial details if that would help." },
+    { "speaker": "customer", "name": "Sophie", "ts": "00:01:48", "text": "That would be great. And actually — how does the signing work when multiple people need to approve? Do they each sign separately?" },
+    { "speaker": "rep", "name": "Eric", "ts": "00:01:58", "text": "Yes, you can set up multiple signers in CloudSign. Each person gets a notification when it's their turn to sign. It's sequential by default, but you can also do parallel signing." },
+    { "speaker": "customer", "name": "Sophie", "ts": "00:02:10", "text": "Okay, that's useful. I think it would help if we did a short demo for the wider team — maybe 30 minutes — so everyone understands the process before we move forward." },
+    { "speaker": "rep", "name": "Eric", "ts": "00:02:22", "text": "Absolutely. I'll send over some time slots for next week. And in the meantime, I'll reach out to Markus directly about his payment terms questions." },
+    { "speaker": "customer", "name": "Sophie", "ts": "00:02:32", "text": "Perfect. Thanks Eric." },
+    { "speaker": "rep", "name": "Eric", "ts": "00:02:35", "text": "Thanks Sophie. Talk soon." }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "TKT-002",
+  "subject": "How to restrict deal visibility so reps only see their own team's deals?",
+  "status": "open",
+  "priority": "normal",
+  "submitted_by": {
+    "name": "Sarah Whitfield",
+    "role": "admin",
+    "company": "Greenfield Solutions (UK, 85 employees)"
+  },
+  "submitted_at": "2026-04-09T14:32:00Z",
+  "tags": ["permissions", "deals", "teams", "access-control"],
+  "body": "Hi there,\n\nWe recently restructured into three regional sales teams (North, South, and Midlands) and I need to set up deal visibility so each team can only see their own pipeline. Right now everyone can see every deal in the system and it's causing confusion during pipeline reviews.\n\nI've looked through the permissions settings but I can only find options to restrict at the individual user level, not at the team level. Is there a way to configure team-based deal visibility, or do I need to set this up rep by rep?\n\nWe have about 40 active reps across the three teams so doing it individually would be quite painful.\n\nThanks,\nSarah"
+}

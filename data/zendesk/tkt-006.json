@@ -1,0 +1,14 @@
+{
+  "id": "TKT-006",
+  "subject": "Deal page takes 15+ seconds to load when there are many linked items",
+  "status": "open",
+  "priority": "normal",
+  "submitted_by": {
+    "name": "Thomas Richter",
+    "role": "rep",
+    "company": "Nordlicht Digital GmbH (Germany, 22 employees)"
+  },
+  "submitted_at": "2026-04-12T11:38:00Z",
+  "tags": ["performance", "deals", "page-load", "ux"],
+  "body": "Hi,\n\nI've noticed that deal pages with a lot of linked items (quotes, invoices, tasks, notes) are becoming extremely slow to load. For our bigger deals that have 10+ quotes and 30+ tasks, the page takes 15 seconds or more to fully render. During that time the page is partially loaded and I can't click on anything.\n\nThis is happening consistently across Chrome and Firefox on my desktop (good internet connection, 100 Mbps). My colleagues confirm the same experience.\n\nSmaller deals with just 1-2 quotes load fine. It seems like the more linked records there are, the worse it gets.\n\nIs this a known issue? It's really slowing down our workflow because we spend a lot of time on these larger deal pages during client calls.\n\nBest,\nThomas"
+}

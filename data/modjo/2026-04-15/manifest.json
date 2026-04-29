@@ -4,13 +4,13 @@
   "date_range": "2026-04-01:2026-04-15",
   "calls": [
     "call-001-sara-marcus.json",
-    "call-002-jessica-tom.json",
-    "call-003-pieter-lisa.json",
-    "call-004-david-rachel.json",
-    "call-005-maaike-kristian.json",
-    "call-006-eric-anya.json",
-    "call-007-anna-bob.json",
-    "call-008-tom-lisa.json"
+    "call-002-david-rachel.json",
+    "call-003-pieter-jan.json",
+    "call-004-maaike-thomas.json",
+    "call-005-lisa-wouter.json",
+    "call-006-eric-sophie.json",
+    "call-007-anna-dennis.json",
+    "call-008-tom-claire.json"
   ],
   "notes": "Workshop fixture. Synthetic transcripts shaped to Modjo's API output. Mixed Dutch/English. AI summaries occasionally diverge from raw transcripts — by design — to support the verification step."
 }

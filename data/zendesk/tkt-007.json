@@ -1,0 +1,14 @@
+{
+  "id": "TKT-007",
+  "subject": "CloudSign signature completed but deal still shows 'Sent' — status disconnect",
+  "status": "open",
+  "priority": "high",
+  "submitted_by": {
+    "name": "Antoine Lefebvre",
+    "role": "rep",
+    "company": "MaisonVert Paysagistes (France, 14 employees)"
+  },
+  "submitted_at": "2026-04-13T07:55:00Z",
+  "tags": ["quotes", "cloudsign", "signatures", "deal-status"],
+  "body": "Hi,\n\nI have a confusing situation that I think is a bug. I sent a quote to a client via CloudSign last week. The client signed the document — I confirmed this by logging into the CloudSign portal directly, where the document clearly shows as signed with a timestamp and the client's signature.\n\nHowever, when I go back to the deal page in Teamleader Focus, two things are wrong:\n\n1. The Status column for that quote still shows \"Sent\" — it never updated to \"Accepted\" even though the signature is complete.\n2. The activity label next to \"View activity\" shows \"Offline\" which makes no sense at all since the customer obviously opened and signed the document online.\n\nSo now I have a deal where CloudSign knows the quote is signed, but Teamleader still thinks it's just \"Sent\" and \"Offline.\" This means my pipeline metrics are wrong — this deal should be showing as won but it's stuck in the sent stage.\n\nI've waited 48 hours hoping it would sync, but nothing has changed. I can manually change the status but that defeats the purpose of having CloudSign integration.\n\nIs there a known sync issue between CloudSign and the deal page? How do I get these two systems to agree?\n\nThanks,\nAntoine"
+}

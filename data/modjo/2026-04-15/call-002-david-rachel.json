@@ -1,0 +1,31 @@
+{
+  "id": "call-002",
+  "date": "2026-04-09T14:00:00Z",
+  "language": "en",
+  "participants": [
+    { "name": "David O'Connor", "role": "csm", "company": "Teamleader" },
+    { "name": "Rachel Simmons", "role": "customer", "company": "BrightPath Consulting (UK, mid-market, management consulting)" }
+  ],
+  "duration_minutes": 24,
+  "summary": "Quarterly check-in between David and Rachel. Rachel mentions she reviewed the renewal quote three times last week but never heard back from the AE. David discovers the quote shows as 'Offline' in the system, which likely explains the lack of follow-up. Rachel expresses frustration that her engagement wasn't visible. They also discuss upcoming feature requests and Rachel's team expansion plans for Q3.",
+  "transcript": [
+    { "speaker": "csm", "name": "David", "ts": "00:00:08", "text": "Rachel, great to connect again. How's everything going at BrightPath?" },
+    { "speaker": "customer", "name": "Rachel", "ts": "00:00:14", "text": "Hi David, things are good. Busy quarter as always. Actually, I wanted to bring something up before we get into the usual review." },
+    { "speaker": "csm", "name": "David", "ts": "00:00:22", "text": "Of course, go ahead." },
+    { "speaker": "customer", "name": "Rachel", "ts": "00:00:26", "text": "So your colleague — I think it was Pieter — sent us a renewal quote about ten days ago. I went through it quite carefully. Read the whole thing twice, actually, because I wanted to compare it to last year's terms." },
+    { "speaker": "csm", "name": "David", "ts": "00:00:42", "text": "Right, and did you have questions about it?" },
+    { "speaker": "customer", "name": "Rachel", "ts": "00:00:46", "text": "I did, but nobody followed up with me. I assumed Pieter could see that I'd opened it and would reach out, but I never heard anything. So I just sort of left it." },
+    { "speaker": "csm", "name": "David", "ts": "00:00:58", "text": "That's odd. Let me check... Hmm, so on our end the quote is showing as 'Offline.' That probably means Pieter assumed you hadn't looked at it yet." },
+    { "speaker": "customer", "name": "Rachel", "ts": "00:01:10", "text": "But I absolutely did look at it. I opened it on my laptop, at my desk. Twice. I even bookmarked the link." },
+    { "speaker": "csm", "name": "David", "ts": "00:01:19", "text": "I believe you completely. The tracking in CloudSign can be a bit inconsistent sometimes. I'll flag this to Pieter and make sure he reaches out to you this week." },
+    { "speaker": "customer", "name": "Rachel", "ts": "00:01:30", "text": "Please do. It's a bit frustrating because from my side it looks like we're being ignored, but apparently from your side it looks like I haven't engaged at all." },
+    { "speaker": "csm", "name": "David", "ts": "00:01:42", "text": "Totally understand. It's a gap we're aware of, and I know the product team is looking into improving the visibility on that. But for now, I'll make sure Pieter follows up personally." },
+    { "speaker": "customer", "name": "Rachel", "ts": "00:01:54", "text": "Thanks David. I appreciate that." },
+    { "speaker": "csm", "name": "David", "ts": "00:02:00", "text": "Now, moving on to the quarterly review — how's adoption looking across your team?" },
+    { "speaker": "customer", "name": "Rachel", "ts": "00:02:08", "text": "Really well actually. We've onboarded twelve new users since January. And we're planning to expand the team in Q3, so we might need to revisit the seat count." },
+    { "speaker": "csm", "name": "David", "ts": "00:02:20", "text": "That's great to hear. Let's build that into the renewal conversation. Anything else on your mind?" },
+    { "speaker": "customer", "name": "Rachel", "ts": "00:02:28", "text": "Just the usual — we'd love better reporting dashboards. But I know that's on the roadmap." },
+    { "speaker": "csm", "name": "David", "ts": "00:02:35", "text": "It is indeed. I'll send you the latest roadmap update after this call. Thanks Rachel, great catching up." },
+    { "speaker": "customer", "name": "Rachel", "ts": "00:02:42", "text": "Thanks David. Talk soon." }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "TKT-003",
+  "subject": "Quote PDF renders broken on mobile - customer opened it 3 times",
+  "status": "open",
+  "priority": "high",
+  "submitted_by": {
+    "name": "Markus Bauer",
+    "role": "rep",
+    "company": "Dresdner Haustechnik GmbH (Germany, 12 employees)"
+  },
+  "submitted_at": "2026-04-10T08:47:00Z",
+  "tags": ["quotes", "pdf", "mobile", "rendering"],
+  "body": "Hi Support,\n\nOne of my customers just called me frustrated because the quote I sent through CloudSign looks completely broken on her phone. The text overlaps the pricing table, the logo is stretched, and she can't scroll horizontally to see the full line items.\n\nI can see in the activity popover that she opened the quote 3 times — so she clearly tried to make it work before giving up and calling me. I ended up having to walk her through the numbers over the phone, which defeats the whole purpose of sending a professional-looking quote.\n\nThis is an iPhone 14 with Safari. I tested the same link on my Android and the layout is also off, though not as bad.\n\nCan you look into the mobile rendering? Our customers are tradespeople who check everything on their phones. If the quotes don't display properly on mobile we have a real problem.\n\nThanks,\nMarkus"
+}

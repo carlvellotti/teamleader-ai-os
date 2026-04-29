@@ -1,0 +1,14 @@
+{
+  "id": "TKT-004",
+  "subject": "What does 'Offline' mean in the CloudSign activity column?",
+  "status": "open",
+  "priority": "low",
+  "submitted_by": {
+    "name": "Daan Vermeersch",
+    "role": "rep",
+    "company": "Limburg Installatietechniek (Belgium, 8 employees)"
+  },
+  "submitted_at": "2026-04-11T10:05:00Z",
+  "tags": ["quotes", "cloudsign", "ux", "documentation"],
+  "body": "Hello,\n\nI'm fairly new here (started three weeks ago) and I'm trying to understand the Quotations table on the deal page. When I click \"View activity\" next to a quote, some show \"Online\" or \"Viewed\" but a few just say \"Offline.\" I have no idea what that means.\n\nDoes \"Offline\" mean the customer downloaded the PDF? Or that the link expired? Or that it was never sent digitally at all? The label doesn't really explain itself.\n\nI asked two of my colleagues and they both said something different. One told me it means the quote was created but not sent via CloudSign, and the other said it just means the tracking isn't available. They both basically told me to just ignore the status and call the customer directly.\n\nIs there documentation on this? I'd like to actually understand what I'm looking at so I know when to follow up and when a customer has already engaged with a quote.\n\nThanks for any help,\nDaan"
+}

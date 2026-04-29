@@ -9,16 +9,14 @@
 
 ---
 
-## 2026-04-09 — Quarterly review with Henrik (CRO)
+## 2026-04-14 — Quarterly Business Review with CRO Henrik Larsson
 
-Henrik gave generally positive feedback on adoption across his global sales team — they're now standardized on Teamleader Focus across all four regions (NA, EMEA, APAC, LATAM). Pipeline visibility has been a clear win.
+Quarterly call with Henrik. He opened by saying the APAC team is "losing faith in the activity data" and wanted to walk me through an example. Their APAC director, Priya, was working a six-figure renewal with a logistics partner in Singapore. She reviewed the quote on her phone twice while traveling between client meetings — Henrik confirmed this because Priya messaged him afterward saying "I've read through the whole thing, looks good." When the rep checked the deal page the next morning, the View activity popover showed the quote status as "Offline." No record of either mobile session.
 
-He flagged one thing that came up in his last regional sales operations meeting: their senior reps are increasingly running their pipeline reviews from mobile during travel, and the team has been frustrated by the inconsistent quote-tracking signal. Specifically, his APAC director reviewed a six-figure quote on her phone twice during a week of customer travel — and was surprised the rep didn't follow up. Turned out the activity panel had shown "Offline" the whole time.
+Henrik said the rep didn't follow up because the activity column implied zero engagement. The deal eventually closed, but only after Priya reached out herself asking why nobody had called her. Henrik framed it as a trust problem that compounds over time: "If reps can't trust what they see on the deal page, they stop looking at it. Then they stop using the system for pipeline decisions."
 
-Henrik's framing: this isn't a blocker, but it's the kind of thing that erodes trust in the tool over time, especially with senior reps who pride themselves on responsiveness. He'd like to see a more reliable engagement signal as part of our roadmap conversation.
+He asked whether CloudSign's event data feeds into the activity panel in real-time or on a delay. I told him I'd take it back to the product team. He wasn't angry — more resigned. Said he's heard similar stories from reps in Sydney and Tokyo but this was the first time it cost them visible deal momentum.
 
-We discussed expansion — they're looking at adding 15 more seats in APAC for Q3. Maya to schedule a follow-up with their head of sales operations to scope.
+## 2026-03-28 — Email from Henrik (forwarded thread)
 
-## 2026-04-02 — Email exchange
-
-Henrik forwarded a thread from his team about a quote a customer had clearly opened (the customer mentioned it on a call) but their deal page had shown no activity. Asked if we have a roadmap item to address this. Maya confirmed it's been raised internally and will share more once we have an update.
+Henrik forwarded an internal email chain. One of his Sydney-based enterprise reps had sent a quote to a prospect on March 22. The prospect emailed back on March 25 saying "I've reviewed the quote and have a few questions." When the rep checked the deal page, the Quotations table still showed status "Sent" and the View activity popover showed no opens — just "Offline." The rep had to manually reconcile the customer's email with what the system was telling him. Henrik's note to me at the top of the forward: "Another one. This is becoming a pattern with mobile/tablet views."

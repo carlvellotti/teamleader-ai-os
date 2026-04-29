@@ -5,22 +5,24 @@
 **ARR:** €165,000
 **Seats:** 48
 **Renewal:** 2026-11-30
-**Health:** Yellow (declining usage in CS module)
+**Health:** Yellow
 
 ---
 
-## 2026-04-11 — Touch base call with Marcia (VP Sales Ops)
+## 2026-04-07 — Touch base with VP Sales Ops Marcia Engstrom
 
-Marcia is still primarily focused on the CS module rollout — that's where the yellow health flag is coming from. Her CS team finds the playbook configuration too rigid and is working around it.
+Caught up with Marcia for our biweekly. She brought up something that's been nagging at her since Q1 planning: their senior AE Mark Janssen has been maintaining a personal spreadsheet where he logs quote opens. He reconstructs the data from email read receipts, phone call notes, and direct messages from prospects. Marcia said Mark told her he started doing it because "the activity column is wrong half the time."
 
-Quote tracking came up briefly. Marcia said her sales team has stopped paying attention to the activity column on the deal page because "it's wrong half the time." She didn't have specific examples ready but said her senior AE — Mark — has been keeping a personal spreadsheet of quote opens that he reconstructs from emails and phone calls. That's the kind of workaround that worries her, because it means we're not the source of truth for that piece of the pipeline.
+I asked Marcia to elaborate on "wrong." She said sometimes the View activity popover shows "Offline" for quotes that were clearly opened — prospects reference specific line items in follow-up calls. Other times it shows "Viewed" but the timing doesn't match when the prospect says they actually looked at it. The Status column (Open/Sent/Accepted) works fine for tracking the macro lifecycle, but the engagement layer inside the activity popover is what's unreliable.
 
-She's not pushing for a fix urgently — it's a "would be nice" rather than a "must fix to renew." But it's on her list of things she'd want to see improve before the renewal conversation.
+Marcia's concern is less about Mark — he's a top performer and will work around anything — and more about the rest of the team. Junior reps take the activity data at face value and make follow-up decisions based on it. If the data says "Offline," they wait. She said she's started telling new hires to "call anyway, don't trust the panel," which defeats the purpose of having the tool.
 
-Action items:
-- James to follow up on CS module configuration concerns (separate)
-- Surface the quote-tracking feedback to product
+Flagging this account as Yellow partly because of unrelated onboarding delays, but the trust issue with activity data is contributing to lower adoption scores in their last NPS.
 
-## 2026-04-04 — Email reply to renewal-prep questionnaire
+## 2026-03-19 — Marcia's response to "Biggest Frustration" questionnaire
 
-Marcia answered the "biggest frustration" prompt with: "the activity panel on the deal page doesn't tell us anything we trust." That's a paraphrase — original is in the survey response file.
+Pulled Marcia's response from the quarterly friction survey we sent out. Her verbatim answer to "What is your team's single biggest frustration with the platform?"
+
+> "The activity panel on quotes. My team needs to know when a prospect opens a quote so they can time their follow-up. The data exists somewhere in CloudSign but it doesn't reliably surface on the deal page. We see 'Offline' for quotes we know were opened. Our best AE keeps a separate spreadsheet because he doesn't trust it. That spreadsheet shouldn't need to exist."
+
+She also rated "Quote engagement visibility" as her #1 feature improvement request in the prioritization exercise. Tagging this for the product team.

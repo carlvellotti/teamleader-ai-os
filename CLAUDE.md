@@ -7,7 +7,9 @@ Shared workflow layer for the Teamleader product team. If you're new to this rep
 - **Teamleader Focus** — our flagship CRM + project + invoicing tool. SMB and mid-market customers across NL, BE, DE, FR, UK. Mixed-language product surface (primary: Dutch, secondary: English).
 - **Quotations** — the part of the deal page where reps send quotes to customers. Includes the e-signature flow ("Cloudsign activity") and the engagement signal ("View activity" link with status).
 
-The current product focus: **the trust gap on the Quotations engagement signal**. Reps describe not trusting the "Offline" label because it appears even when customers have actively viewed the quote. The team is investigating, deciding the fix, and prototyping it through this repo.
+The current product focus: **the buried engagement signal on the Quotations table**. CloudSign already tracks real engagement — view count, downloads, buyer feedback, signature status — but it's hidden behind per-row popovers ("View activity" click) and disconnected from the Status column reps scan. Reps send multiple quote options per deal and can't quickly triage which ones the buyer is engaging with. The team is investigating, deciding the fix, and prototyping it through this repo.
+
+CloudSign tracks five stages: Made available online → Viewed → Feedback → Signed (plus an Offline/not-tracked state). It does NOT track dwell time, scroll depth, per-recipient opens, or device info. There are no quotation-level webhooks — engagement data is only available via the activities feed.
 
 ## Customer types we sell to
 

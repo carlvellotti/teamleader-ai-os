@@ -1,0 +1,14 @@
+{
+  "id": "TKT-001",
+  "subject": "Outlook-agenda synchronisatie werkt niet meer sinds vorige week",
+  "status": "open",
+  "priority": "high",
+  "submitted_by": {
+    "name": "Pieter Van Damme",
+    "role": "admin",
+    "company": "Bouwgroep Janssens (Belgium, 35 employees)"
+  },
+  "submitted_at": "2026-04-09T09:14:00Z",
+  "tags": ["integration", "calendar", "outlook"],
+  "body": "Hallo,\n\nSinds vorige week dinsdag synchroniseert onze Outlook-agenda niet meer met Teamleader Focus. Afspraken die we in Teamleader aanmaken verschijnen niet meer in Outlook, en omgekeerd.\n\nWe hebben al geprobeerd de koppeling te verwijderen en opnieuw in te stellen, maar het probleem blijft. Alle gebruikers in ons team hebben hetzelfde probleem.\n\nKunnen jullie dit zo snel mogelijk bekijken? Onze planners missen afspraken en dat zorgt voor verwarring op de werf.\n\nMet vriendelijke groeten,\nPieter Van Damme\nBouwgroep Janssens"
+}

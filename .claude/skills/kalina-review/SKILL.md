@@ -1,6 +1,6 @@
 ---
 name: kalina-review
-description: Review a PRD draft against Kalina's six criteria — outcome, business case, evidence, user-first, honest scope, cross-functional impact. Produces a structured, line-referenced review with PASS / PARTIAL / FAIL verdicts per criterion.
+description: Review a PRD draft against Kalina's seven criteria — outcome, business case, evidence, user-first, honest scope, cross-functional impact, and decision commitment. Produces a structured, line-referenced review with PASS / PARTIAL / FAIL verdicts per criterion.
 when-to-use: After a PRD has been drafted (by hand or via /draft-prd) and is ready for Director-of-Product-level review. This is the canonical review lens for PRD quality at Teamleader. Run it before eng-review, design-review, or any other lens — Kalina's criteria are the gate.
 ---
 
@@ -29,7 +29,7 @@ Derive the output path from the PRD filename and today's date:
 
 Read the full PRD. Read `personas/kalina.md` and `.claude/rules/review-standards.md` for calibration. Note line numbers as you go — every piece of feedback must point at a specific line or range.
 
-### Step 2 — Review against six criteria
+### Step 2 — Review against seven criteria
 
 Work through each criterion in order. For each one:
 
@@ -38,7 +38,7 @@ Work through each criterion in order. For each one:
 3. **Assess: PASS / PARTIAL / FAIL** with a one-sentence rationale.
 4. **Push back with a concrete question** if PARTIAL or FAIL. The question must be specific enough that the PM can answer it in one sentence. If PASS, note what made it work.
 
-The six criteria, in order:
+The seven criteria, in order:
 
 ---
 
@@ -102,9 +102,19 @@ What does Sales need to know, what does CS need to handle, what's the customer-f
 
 ---
 
+#### 7. Is there actually a decision here?
+
+Low tolerance for specs that gesture at options without committing. "We might consider" or "one approach could be" usually means the team hasn't resolved the hard thing and is hoping the review process will do it for them. A good spec has a point of view.
+
+**What PASS looks like:** A clear commitment — "We are building X, not Y, because Z." Alternatives are named and ruled out with reasoning. The spec doesn't defer the core decision to design or eng.
+
+**What FAIL looks like:** Hedging language: "we might consider," "depending on what's easier to ship," "one approach could be." Multiple options presented without a pick. The hard tradeoff is acknowledged but not resolved.
+
+---
+
 ### Step 3 — Write the overall verdict
 
-After all six criteria, write a short **Overall** section:
+After all seven criteria, write a short **Overall** section:
 
 - Count of PASS / PARTIAL / FAIL
 - One-sentence summary of the PRD's biggest strength
@@ -169,6 +179,14 @@ Print a summary to the chat after saving.
 ---
 
 ## 6. Who else gets affected, and does anyone know?
+
+**Verdict: {PASS | PARTIAL | FAIL}**
+
+{Line-referenced assessment.}
+
+---
+
+## 7. Is there actually a decision here?
 
 **Verdict: {PASS | PARTIAL | FAIL}**
 

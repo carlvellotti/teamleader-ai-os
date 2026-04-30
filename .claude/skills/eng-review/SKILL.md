@@ -31,11 +31,15 @@ Read the PRD top to bottom. For each section, note any technical ambiguity an en
 
 Aim for **5–10 specific gaps**. Don't pad the list with generic concerns — every gap should point at an actual line or section of the PRD where the answer is missing.
 
-### Step 2 — Interview the PM with AUQ
+### Step 2 — Print the full review
 
-For each gap, use the AskUserQuestion tool to ask one clarifying question at a time. Provide concrete multiple-choice options (3-4 per question) that an engineer would actually consider. Always end with the implicit "Other" so the PM can give a custom answer.
+Print all identified gaps to the chat as a numbered list. For each gap: name the area (Data model, Latency, Edge case, etc.), quote the relevant PRD line, and explain what's ambiguous. The PM should see the full picture before resolving anything.
 
-Pace yourself — don't ask all gaps at once. Interleave one question per AUQ call. Wait for the answer. Move on.
+### Step 3 — Resolve gaps one at a time with AUQ
+
+After the PM has read the full review, use the AskUserQuestion tool to resolve each gap one at a time. Provide concrete multiple-choice options (3-4 per question) that an engineer would actually consider. Always end with the implicit "Other" so the PM can give a custom answer.
+
+Pace yourself — one AskUserQuestion call per gap. Wait for the answer. Move on.
 
 **Style of question:**
 - Short, specific, and rooted in a line of the PRD
@@ -68,7 +72,7 @@ Pace yourself — don't ask all gaps at once. Interleave one question per AUQ ca
 > - "Web + iOS + Android"
 > - "Web + mobile web (no native push)"
 
-### Step 3 — Write the resolved questions to the PRD
+### Step 4 — Write the resolved questions to the PRD
 
 After all questions are answered, append a new section to the PRD titled `## 9. Engineering clarifications (from /eng-review)`. Format each entry as:
 

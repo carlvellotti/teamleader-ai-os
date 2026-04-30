@@ -1,0 +1,323 @@
+event_id,event_type,timestamp,user_id,user_name,user_tenure_months,user_region,quote_id,deal_id,account_size,quote_value_eur
+29e37fe0-8cb,quote_sent,2026-01-08 00:00:00,user_010,Sofia Klein,7,DE,Q-0072,deal_050,smb,3589
+fbe213eb-8ae,quote_sent,2026-01-09 00:00:00,user_002,David O'Connor,36,UK,Q-0011,deal_007,mid,27253
+dd869ae1-956,quote_viewed,2026-01-09 07:15:00,buyer,buyer,,,Q-0072,deal_050,smb,3589
+bef6b4ce-8b6,quote_viewed,2026-01-09 17:37:00,buyer,buyer,,,Q-0011,deal_007,mid,27253
+a33b77ae-def,quote_downloaded,2026-01-09 18:11:00,buyer,buyer,,,Q-0072,deal_050,smb,3589
+d77523fd-95c,quote_viewed,2026-01-10 07:21:00,buyer,buyer,,,Q-0072,deal_050,smb,3589
+69da15fc-4d4,quote_viewed,2026-01-10 23:26:00,buyer,buyer,,,Q-0072,deal_050,smb,3589
+a204aa45-bbc,quote_sent,2026-01-11 00:00:00,user_006,Pieter Janssens,8,BE,Q-0039,deal_026,smb,2592
+9dd9fcb9-28b,quote_sent,2026-01-12 00:00:00,user_002,David O'Connor,36,UK,Q-0012,deal_007,mid,26694
+0a685871-ca9,quote_sent,2026-01-12 00:00:00,user_006,Pieter Janssens,8,BE,Q-0040,deal_027,smb,9486
+c230642b-e3d,quote_viewed,2026-01-12 19:15:00,buyer,buyer,,,Q-0039,deal_026,smb,2592
+d57642d8-482,quote_viewed,2026-01-13 03:16:00,buyer,buyer,,,Q-0039,deal_026,smb,2592
+f8abd4a7-050,quote_viewed,2026-01-13 03:27:00,buyer,buyer,,,Q-0040,deal_027,smb,9486
+58ba847c-d63,quote_viewed,2026-01-13 09:47:00,buyer,buyer,,,Q-0012,deal_007,mid,26694
+0ec9cc07-3ea,quote_sent,2026-01-14 00:00:00,user_004,Eric Larsson,48,DE,Q-0028,deal_018,enterprise,160609
+b230075c-2ce,quote_sent,2026-01-14 00:00:00,user_005,Mark Devos,30,BE,Q-0036,deal_024,smb,10346
+7c353c3c-47f,quote_sent,2026-01-14 00:00:00,user_010,Sofia Klein,7,DE,Q-0069,deal_048,enterprise,222402
+bbda1544-940,quote_viewed,2026-01-14 02:21:00,buyer,buyer,,,Q-0012,deal_007,mid,26694
+10764cc4-e80,deal_won,2026-01-14 15:46:00,user_010,Sofia Klein,7,DE,Q-0072,deal_050,smb,3589
+fa5ce03a-a51,quote_sent,2026-01-15 00:00:00,user_006,Pieter Janssens,8,BE,Q-0041,deal_027,smb,8812
+17aadcfa-7a0,cloudsign_activity_clicked,2026-01-15 21:33:00,user_006,Pieter Janssens,8,BE,Q-0039,deal_026,smb,2592
+758d0616-e50,quote_viewed,2026-01-16 04:53:00,buyer,buyer,,,Q-0041,deal_027,smb,8812
+23dd1ba2-aa9,quote_viewed,2026-01-16 08:44:00,buyer,buyer,,,Q-0028,deal_018,enterprise,160609
+cb8cfffd-a48,cloudsign_activity_clicked,2026-01-16 16:49:00,user_005,Mark Devos,30,BE,Q-0036,deal_024,smb,10346
+e96433c9-c8e,cloudsign_activity_clicked,2026-01-18 20:05:00,user_002,David O'Connor,36,UK,Q-0012,deal_007,mid,26694
+b5c01509-587,quote_sent,2026-01-19 00:00:00,user_003,Maaike de Vries,20,NL,Q-0023,deal_015,mid,14944
+8220b466-b51,quote_sent,2026-01-19 00:00:00,user_007,Lisa Hofmann,6,FR,Q-0047,deal_031,smb,4950
+56fb1728-647,quote_sent,2026-01-20 00:00:00,user_005,Mark Devos,30,BE,Q-0037,deal_024,smb,9876
+0bec835a-e21,quote_sent,2026-01-20 00:00:00,user_006,Pieter Janssens,8,BE,Q-0042,deal_027,smb,9365
+f1648256-0bd,cloudsign_activity_clicked,2026-01-20 09:43:00,user_004,Eric Larsson,48,DE,Q-0028,deal_018,enterprise,160609
+6ef838c6-b84,cloudsign_activity_clicked,2026-01-20 10:27:00,user_003,Maaike de Vries,20,NL,Q-0023,deal_015,mid,14944
+e52b6e62-68c,quote_viewed,2026-01-20 10:33:00,buyer,buyer,,,Q-0047,deal_031,smb,4950
+fef3f86f-d87,quote_sent,2026-01-21 00:00:00,user_003,Maaike de Vries,20,NL,Q-0017,deal_011,mid,49946
+2fd21f3c-d51,quote_sent,2026-01-21 00:00:00,user_006,Pieter Janssens,8,BE,Q-0044,deal_029,mid,22095
+e14d0ff0-c93,quote_sent,2026-01-21 00:00:00,user_007,Lisa Hofmann,6,FR,Q-0053,deal_035,smb,4602
+6dfd5b1d-b1f,quote_viewed,2026-01-21 00:23:00,buyer,buyer,,,Q-0037,deal_024,smb,9876
+448b2fc7-f03,quote_viewed,2026-01-21 04:04:00,buyer,buyer,,,Q-0037,deal_024,smb,9876
+fb100dd3-11c,quote_viewed,2026-01-21 12:58:00,buyer,buyer,,,Q-0037,deal_024,smb,9876
+e7fa7f2e-d06,quote_viewed,2026-01-21 14:29:00,buyer,buyer,,,Q-0047,deal_031,smb,4950
+8aeca2ef-657,quote_viewed,2026-01-21 16:43:00,buyer,buyer,,,Q-0037,deal_024,smb,9876
+09c7d9b2-e0a,deal_won,2026-01-21 21:08:00,user_006,Pieter Janssens,8,BE,Q-0039,deal_026,smb,2592
+20863eb2-c34,quote_viewed,2026-01-22 00:51:00,buyer,buyer,,,Q-0044,deal_029,mid,22095
+26484256-b07,quote_viewed,2026-01-22 01:45:00,buyer,buyer,,,Q-0017,deal_011,mid,49946
+f943d074-032,quote_viewed,2026-01-22 16:49:00,buyer,buyer,,,Q-0053,deal_035,smb,4602
+a7f292b1-691,quote_viewed,2026-01-22 19:48:00,buyer,buyer,,,Q-0017,deal_011,mid,49946
+6172b76b-240,quote_viewed,2026-01-22 22:06:00,buyer,buyer,,,Q-0017,deal_011,mid,49946
+61b8789b-9aa,quote_sent,2026-01-23 00:00:00,user_002,David O'Connor,36,UK,Q-0013,deal_007,mid,26694
+46a3e0b5-c08,quote_viewed,2026-01-23 01:20:00,buyer,buyer,,,Q-0037,deal_024,smb,9876
+412cbf41-432,quote_viewed,2026-01-23 11:53:00,buyer,buyer,,,Q-0017,deal_011,mid,49946
+9a4df84e-d90,quote_sent,2026-01-24 00:00:00,user_001,Sara van den Berg,24,NL,Q-0005,deal_004,smb,11824
+a4a2a7d4-d57,quote_sent,2026-01-24 00:00:00,user_009,Tom Bakker,10,UK,Q-0062,deal_043,mid,43221
+490f7226-662,quote_viewed,2026-01-24 01:24:00,buyer,buyer,,,Q-0017,deal_011,mid,49946
+c464b542-b69,quote_viewed,2026-01-24 22:03:00,buyer,buyer,,,Q-0013,deal_007,mid,26694
+bf3ece1a-302,quote_sent,2026-01-25 00:00:00,user_003,Maaike de Vries,20,NL,Q-0018,deal_012,enterprise,240364
+6f5b638a-a9c,quote_sent,2026-01-25 00:00:00,user_006,Pieter Janssens,8,BE,Q-0046,deal_030,smb,5793
+2d8b1f30-d21,quote_sent,2026-01-25 00:00:00,user_007,Lisa Hofmann,6,FR,Q-0051,deal_033,mid,20254
+cefce810-4aa,quote_feedback_sent,2026-01-25 03:15:00,buyer,buyer,,,Q-0037,deal_024,smb,9876
+1d10efa0-2ab,quote_viewed,2026-01-25 04:44:00,buyer,buyer,,,Q-0005,deal_004,smb,11824
+a843a228-197,quote_viewed,2026-01-25 14:55:00,buyer,buyer,,,Q-0013,deal_007,mid,26694
+d6eef5d9-584,quote_viewed,2026-01-25 18:00:00,buyer,buyer,,,Q-0046,deal_030,smb,5793
+4b47f86c-385,quote_viewed,2026-01-25 18:04:00,buyer,buyer,,,Q-0005,deal_004,smb,11824
+3107f5c9-0d3,quote_sent,2026-01-26 00:00:00,user_003,Maaike de Vries,20,NL,Q-0024,deal_015,mid,15502
+af7384c9-1a3,quote_sent,2026-01-26 00:00:00,user_007,Lisa Hofmann,6,FR,Q-0048,deal_031,smb,5394
+42263a7f-e95,quote_feedback_sent,2026-01-26 04:06:00,buyer,buyer,,,Q-0017,deal_011,mid,49946
+cc9be529-739,quote_viewed,2026-01-26 06:59:00,buyer,buyer,,,Q-0046,deal_030,smb,5793
+8b769cbd-404,quote_viewed,2026-01-26 08:49:00,buyer,buyer,,,Q-0046,deal_030,smb,5793
+ac605f34-f75,quote_viewed,2026-01-26 10:05:00,buyer,buyer,,,Q-0013,deal_007,mid,26694
+6b51d9d0-23e,quote_viewed,2026-01-26 11:00:00,buyer,buyer,,,Q-0005,deal_004,smb,11824
+c10faae2-667,quote_viewed,2026-01-26 20:16:00,buyer,buyer,,,Q-0018,deal_012,enterprise,240364
+6dc1115a-3a0,quote_viewed,2026-01-26 23:09:00,buyer,buyer,,,Q-0051,deal_033,mid,20254
+e174ae17-717,quote_sent,2026-01-27 00:00:00,user_001,Sara van den Berg,24,NL,Q-0006,deal_005,smb,5299
+202db2d8-a17,quote_sent,2026-01-27 00:00:00,user_006,Pieter Janssens,8,BE,Q-0045,deal_029,mid,22604
+95d73517-583,quote_sent,2026-01-27 00:00:00,user_008,Anna Smit,4,NL,Q-0058,deal_040,mid,29931
+74421c7b-149,quote_sent,2026-01-27 00:00:00,user_010,Sofia Klein,7,DE,Q-0067,deal_047,smb,5832
+3020f486-490,quote_viewed,2026-01-27 01:07:00,buyer,buyer,,,Q-0005,deal_004,smb,11824
+0a212162-437,quote_viewed,2026-01-27 02:12:00,buyer,buyer,,,Q-0013,deal_007,mid,26694
+f4ce3b19-a51,quote_viewed,2026-01-27 04:56:00,buyer,buyer,,,Q-0013,deal_007,mid,26694
+1cd55b8f-584,cloudsign_activity_clicked,2026-01-27 11:56:00,user_007,Lisa Hofmann,6,FR,Q-0051,deal_033,mid,20254
+9b9e1a99-f10,cloudsign_activity_clicked,2026-01-27 15:05:00,user_003,Maaike de Vries,20,NL,Q-0024,deal_015,mid,15502
+ef757f4f-4ec,quote_viewed,2026-01-27 17:35:00,buyer,buyer,,,Q-0045,deal_029,mid,22604
+ef08ef0d-f86,quote_sent,2026-01-28 00:00:00,user_002,David O'Connor,36,UK,Q-0008,deal_006,smb,7939
+5efe2dbe-f74,quote_sent,2026-01-28 00:00:00,user_005,Mark Devos,30,BE,Q-0034,deal_022,smb,8269
+596639ff-1f9,quote_viewed,2026-01-28 01:16:00,buyer,buyer,,,Q-0058,deal_040,mid,29931
+d05ab5d6-29f,quote_viewed,2026-01-28 06:02:00,buyer,buyer,,,Q-0046,deal_030,smb,5793
+68fcbad8-cba,quote_viewed,2026-01-28 06:27:00,buyer,buyer,,,Q-0005,deal_004,smb,11824
+686faf37-a01,quote_viewed,2026-01-28 08:27:00,buyer,buyer,,,Q-0051,deal_033,mid,20254
+74b850b1-926,quote_viewed,2026-01-28 09:10:00,buyer,buyer,,,Q-0018,deal_012,enterprise,240364
+59f738d6-29d,cloudsign_activity_clicked,2026-01-28 12:49:00,user_001,Sara van den Berg,24,NL,Q-0005,deal_004,smb,11824
+58ff72d1-3d2,quote_viewed,2026-01-28 16:31:00,buyer,buyer,,,Q-0005,deal_004,smb,11824
+82ad8497-7b1,quote_sent,2026-01-29 00:00:00,user_003,Maaike de Vries,20,NL,Q-0025,deal_015,mid,15692
+7f251bd8-abe,quote_viewed,2026-01-29 06:35:00,buyer,buyer,,,Q-0005,deal_004,smb,11824
+d9fb1478-f10,deal_won,2026-01-29 07:38:00,user_005,Mark Devos,30,BE,Q-0037,deal_024,smb,9876
+83aa39c9-630,quote_viewed,2026-01-29 07:49:00,buyer,buyer,,,Q-0025,deal_015,mid,15692
+1aa6d672-f67,quote_viewed,2026-01-29 08:55:00,buyer,buyer,,,Q-0025,deal_015,mid,15692
+1e416c53-7af,quote_viewed,2026-01-29 16:39:00,buyer,buyer,,,Q-0008,deal_006,smb,7939
+09765620-e7c,cloudsign_activity_clicked,2026-01-29 18:37:00,user_002,David O'Connor,36,UK,Q-0013,deal_007,mid,26694
+41b66e9f-9b5,deal_won,2026-01-29 19:17:00,user_003,Maaike de Vries,20,NL,Q-0017,deal_011,mid,49946
+9bf9ee16-d51,quote_viewed,2026-01-29 20:13:00,buyer,buyer,,,Q-0046,deal_030,smb,5793
+110703ec-39e,quote_viewed,2026-01-29 20:46:00,buyer,buyer,,,Q-0025,deal_015,mid,15692
+67d669c0-8a5,quote_viewed,2026-01-29 22:02:00,buyer,buyer,,,Q-0034,deal_022,smb,8269
+37103899-67e,quote_sent,2026-01-30 00:00:00,user_002,David O'Connor,36,UK,Q-0009,deal_006,smb,7771
+01e60478-d2a,quote_sent,2026-01-30 00:00:00,user_009,Tom Bakker,10,UK,Q-0060,deal_042,mid,17303
+ae0e9203-6cc,quote_viewed,2026-01-30 02:07:00,buyer,buyer,,,Q-0025,deal_015,mid,15692
+f98d8df7-d93,quote_downloaded,2026-01-30 06:30:00,buyer,buyer,,,Q-0034,deal_022,smb,8269
+a1326e68-612,quote_viewed,2026-01-30 08:19:00,buyer,buyer,,,Q-0025,deal_015,mid,15692
+4487db87-5dd,quote_viewed,2026-01-30 09:02:00,buyer,buyer,,,Q-0034,deal_022,smb,8269
+0c11a257-79f,quote_viewed,2026-01-30 14:40:00,buyer,buyer,,,Q-0034,deal_022,smb,8269
+43e305d2-517,quote_sent,2026-01-31 00:00:00,user_001,Sara van den Berg,24,NL,Q-0007,deal_005,smb,5142
+f726c38b-8cd,quote_sent,2026-01-31 00:00:00,user_003,Maaike de Vries,20,NL,Q-0019,deal_012,enterprise,240352
+40063d42-242,cloudsign_activity_clicked,2026-01-31 02:13:00,user_002,David O'Connor,36,UK,Q-0008,deal_006,smb,7939
+ec975508-dcd,quote_viewed,2026-01-31 07:58:00,buyer,buyer,,,Q-0034,deal_022,smb,8269
+c9566f41-daa,quote_viewed,2026-01-31 08:27:00,buyer,buyer,,,Q-0034,deal_022,smb,8269
+c58ead7a-78f,deal_won,2026-01-31 08:55:00,user_007,Lisa Hofmann,6,FR,Q-0051,deal_033,mid,20254
+c5057f9c-df3,quote_viewed,2026-01-31 09:40:00,buyer,buyer,,,Q-0034,deal_022,smb,8269
+235b8107-cba,quote_viewed,2026-01-31 20:45:00,buyer,buyer,,,Q-0025,deal_015,mid,15692
+f8f1ce86-5b7,quote_downloaded,2026-01-31 21:27:00,buyer,buyer,,,Q-0034,deal_022,smb,8269
+c203085a-5d7,quote_viewed,2026-01-31 21:47:00,buyer,buyer,,,Q-0019,deal_012,enterprise,240352
+a0f5d5a1-7f5,quote_sent,2026-02-01 00:00:00,user_002,David O'Connor,36,UK,Q-0014,deal_008,mid,35573
+d221cb94-9c8,quote_sent,2026-02-01 00:00:00,user_009,Tom Bakker,10,UK,Q-0061,deal_042,mid,17282
+a31d3bc8-32e,quote_viewed,2026-02-01 02:14:00,buyer,buyer,,,Q-0007,deal_005,smb,5142
+3ebb67d0-a42,quote_viewed,2026-02-01 02:59:00,buyer,buyer,,,Q-0007,deal_005,smb,5142
+a2290c50-163,quote_viewed,2026-02-01 03:07:00,buyer,buyer,,,Q-0014,deal_008,mid,35573
+a6c6a69e-185,quote_viewed,2026-02-01 04:45:00,buyer,buyer,,,Q-0007,deal_005,smb,5142
+6c9f5857-836,quote_viewed,2026-02-01 08:17:00,buyer,buyer,,,Q-0007,deal_005,smb,5142
+47f209d7-544,quote_viewed,2026-02-01 09:11:00,buyer,buyer,,,Q-0025,deal_015,mid,15692
+6a63dbd2-4ee,quote_viewed,2026-02-01 16:51:00,buyer,buyer,,,Q-0007,deal_005,smb,5142
+4aa88914-9a8,quote_viewed,2026-02-01 18:07:00,buyer,buyer,,,Q-0019,deal_012,enterprise,240352
+b582719a-c8b,quote_sent,2026-02-02 00:00:00,user_007,Lisa Hofmann,6,FR,Q-0049,deal_031,smb,5254
+5ba8e565-ebc,deal_won,2026-02-02 03:28:00,user_006,Pieter Janssens,8,BE,Q-0046,deal_030,smb,5793
+aef88d7e-bcf,quote_downloaded,2026-02-02 10:20:00,buyer,buyer,,,Q-0007,deal_005,smb,5142
+150ccfc8-642,quote_viewed,2026-02-02 10:22:00,buyer,buyer,,,Q-0061,deal_042,mid,17282
+8638003b-8d5,quote_viewed,2026-02-02 23:10:00,buyer,buyer,,,Q-0061,deal_042,mid,17282
+df6609e6-e43,quote_sent,2026-02-03 00:00:00,user_010,Sofia Klein,7,DE,Q-0068,deal_047,smb,6389
+163736dd-59b,quote_viewed,2026-02-03 13:15:00,buyer,buyer,,,Q-0007,deal_005,smb,5142
+e202b7f4-568,quote_sent,2026-02-04 00:00:00,user_003,Maaike de Vries,20,NL,Q-0020,deal_012,enterprise,240014
+4875e33b-f0e,quote_sent,2026-02-04 00:00:00,user_005,Mark Devos,30,BE,Q-0035,deal_023,enterprise,219372
+74127fa3-7a8,cloudsign_activity_clicked,2026-02-04 05:33:00,user_002,David O'Connor,36,UK,Q-0009,deal_006,smb,7771
+55911318-4e4,quote_downloaded,2026-02-04 07:06:00,buyer,buyer,,,Q-0007,deal_005,smb,5142
+59e89c8c-d6c,quote_viewed,2026-02-04 07:46:00,buyer,buyer,,,Q-0049,deal_031,smb,5254
+0f76bab1-8da,cloudsign_activity_clicked,2026-02-04 10:43:00,user_003,Maaike de Vries,20,NL,Q-0025,deal_015,mid,15692
+7db32df9-5de,quote_viewed,2026-02-04 13:49:00,buyer,buyer,,,Q-0068,deal_047,smb,6389
+effcbaf3-128,quote_viewed,2026-02-04 14:30:00,buyer,buyer,,,Q-0020,deal_012,enterprise,240014
+09c4b8f9-2b4,quote_viewed,2026-02-04 16:00:00,buyer,buyer,,,Q-0049,deal_031,smb,5254
+9573586f-8b6,quote_sent,2026-02-05 00:00:00,user_002,David O'Connor,36,UK,Q-0010,deal_006,smb,8268
+605b2a9f-116,quote_viewed,2026-02-05 06:34:00,buyer,buyer,,,Q-0068,deal_047,smb,6389
+74f8f134-30d,quote_viewed,2026-02-05 07:08:00,buyer,buyer,,,Q-0020,deal_012,enterprise,240014
+4aa7eb42-29c,quote_viewed,2026-02-05 13:37:00,buyer,buyer,,,Q-0035,deal_023,enterprise,219372
+4b44eada-fc5,quote_viewed,2026-02-05 19:04:00,buyer,buyer,,,Q-0010,deal_006,smb,8268
+d9295ce0-7d3,quote_viewed,2026-02-05 19:38:00,buyer,buyer,,,Q-0020,deal_012,enterprise,240014
+6898cb07-a0f,quote_viewed,2026-02-05 22:47:00,buyer,buyer,,,Q-0010,deal_006,smb,8268
+489481b2-e72,quote_downloaded,2026-02-05 22:58:00,buyer,buyer,,,Q-0010,deal_006,smb,8268
+fb08edbf-f55,quote_viewed,2026-02-06 15:31:00,buyer,buyer,,,Q-0010,deal_006,smb,8268
+b1c2eeb5-36f,quote_viewed,2026-02-06 19:13:00,buyer,buyer,,,Q-0020,deal_012,enterprise,240014
+68a36c23-8b9,quote_viewed,2026-02-06 19:53:00,buyer,buyer,,,Q-0035,deal_023,enterprise,219372
+faf32759-c29,cloudsign_activity_clicked,2026-02-06 22:53:00,user_003,Maaike de Vries,20,NL,Q-0019,deal_012,enterprise,240352
+5f219982-5b2,quote_sent,2026-02-07 00:00:00,user_005,Mark Devos,30,BE,Q-0038,deal_025,mid,42127
+277ec040-c0e,quote_sent,2026-02-07 00:00:00,user_009,Tom Bakker,10,UK,Q-0059,deal_041,smb,5961
+1407713d-bd7,quote_viewed,2026-02-07 04:07:00,buyer,buyer,,,Q-0010,deal_006,smb,8268
+1b597679-f7b,quote_viewed,2026-02-07 15:38:00,buyer,buyer,,,Q-0010,deal_006,smb,8268
+e02ed03b-0fb,quote_viewed,2026-02-07 18:10:00,buyer,buyer,,,Q-0059,deal_041,smb,5961
+0bea1cb2-27d,quote_viewed,2026-02-07 21:57:00,buyer,buyer,,,Q-0059,deal_041,smb,5961
+96f27323-161,cloudsign_activity_clicked,2026-02-08 12:16:00,user_005,Mark Devos,30,BE,Q-0035,deal_023,enterprise,219372
+ef56a55a-616,cloudsign_activity_clicked,2026-02-08 13:25:00,user_002,David O'Connor,36,UK,Q-0010,deal_006,smb,8268
+a3dfc7b6-a61,quote_viewed,2026-02-08 13:32:00,buyer,buyer,,,Q-0010,deal_006,smb,8268
+6d373a04-739,quote_viewed,2026-02-08 18:55:00,buyer,buyer,,,Q-0020,deal_012,enterprise,240014
+b4ab44e9-b37,cloudsign_activity_clicked,2026-02-08 21:18:00,user_005,Mark Devos,30,BE,Q-0038,deal_025,mid,42127
+46f22dcb-d77,deal_won,2026-02-08 23:57:00,user_001,Sara van den Berg,24,NL,Q-0005,deal_004,smb,11824
+99880602-7e3,quote_viewed,2026-02-09 01:01:00,buyer,buyer,,,Q-0010,deal_006,smb,8268
+eb20c25c-605,quote_downloaded,2026-02-09 01:34:00,buyer,buyer,,,Q-0010,deal_006,smb,8268
+ec96eab7-906,quote_viewed,2026-02-09 05:59:00,buyer,buyer,,,Q-0038,deal_025,mid,42127
+604d1023-452,quote_viewed,2026-02-09 11:56:00,buyer,buyer,,,Q-0059,deal_041,smb,5961
+9455a974-85d,quote_viewed,2026-02-09 12:08:00,buyer,buyer,,,Q-0038,deal_025,mid,42127
+760a4d74-4cd,quote_viewed,2026-02-09 13:26:00,buyer,buyer,,,Q-0038,deal_025,mid,42127
+f654b058-628,quote_viewed,2026-02-09 20:27:00,buyer,buyer,,,Q-0010,deal_006,smb,8268
+d6740d1f-231,quote_sent,2026-02-10 00:00:00,user_004,Eric Larsson,48,DE,Q-0027,deal_017,mid,54710
+005c3815-305,quote_sent,2026-02-10 00:00:00,user_008,Anna Smit,4,NL,Q-0057,deal_039,smb,2303
+f9510154-208,deal_won,2026-02-10 00:05:00,user_003,Maaike de Vries,20,NL,Q-0025,deal_015,mid,15692
+de3e8b01-33e,quote_viewed,2026-02-10 11:55:00,buyer,buyer,,,Q-0059,deal_041,smb,5961
+328fe11e-584,quote_viewed,2026-02-10 18:35:00,buyer,buyer,,,Q-0057,deal_039,smb,2303
+b930092f-ba1,quote_viewed,2026-02-10 23:32:00,buyer,buyer,,,Q-0057,deal_039,smb,2303
+35d9b794-5ac,quote_sent,2026-02-11 00:00:00,user_002,David O'Connor,36,UK,Q-0016,deal_010,smb,10243
+55e00dbd-c23,quote_sent,2026-02-11 00:00:00,user_003,Maaike de Vries,20,NL,Q-0021,deal_013,smb,7821
+5e260842-ab4,quote_sent,2026-02-11 00:00:00,user_008,Anna Smit,4,NL,Q-0054,deal_036,mid,34381
+d1c8b051-5e6,quote_viewed,2026-02-11 04:24:00,buyer,buyer,,,Q-0057,deal_039,smb,2303
+71a09bce-471,quote_viewed,2026-02-11 06:22:00,buyer,buyer,,,Q-0027,deal_017,mid,54710
+2972417a-05a,quote_viewed,2026-02-11 10:30:00,buyer,buyer,,,Q-0057,deal_039,smb,2303
+a4223b34-5a1,deal_won,2026-02-11 19:34:00,user_005,Mark Devos,30,BE,Q-0034,deal_022,smb,8269
+a06aebfd-652,deal_won,2026-02-11 21:56:00,user_001,Sara van den Berg,24,NL,Q-0007,deal_005,smb,5142
+29e1290b-111,quote_viewed,2026-02-12 09:56:00,buyer,buyer,,,Q-0038,deal_025,mid,42127
+5923b76d-b66,quote_viewed,2026-02-12 14:32:00,buyer,buyer,,,Q-0021,deal_013,smb,7821
+7e30e4ee-45b,quote_viewed,2026-02-12 14:49:00,buyer,buyer,,,Q-0057,deal_039,smb,2303
+04c85b0b-653,quote_viewed,2026-02-12 22:40:00,buyer,buyer,,,Q-0021,deal_013,smb,7821
+c5ca8d39-6be,quote_viewed,2026-02-13 01:19:00,buyer,buyer,,,Q-0054,deal_036,mid,34381
+9f2bef7e-54c,quote_viewed,2026-02-13 03:40:00,buyer,buyer,,,Q-0054,deal_036,mid,34381
+9c4ba501-06d,quote_viewed,2026-02-13 04:43:00,buyer,buyer,,,Q-0054,deal_036,mid,34381
+51f7d49e-ddb,quote_viewed,2026-02-13 05:29:00,buyer,buyer,,,Q-0021,deal_013,smb,7821
+5346db1e-93b,quote_viewed,2026-02-13 18:09:00,buyer,buyer,,,Q-0021,deal_013,smb,7821
+56a3a67e-1fc,quote_viewed,2026-02-13 23:30:00,buyer,buyer,,,Q-0057,deal_039,smb,2303
+20f1e024-700,quote_sent,2026-02-14 00:00:00,user_008,Anna Smit,4,NL,Q-0055,deal_037,smb,4686
+21fae56c-d85,deal_won,2026-02-14 06:35:00,user_005,Mark Devos,30,BE,Q-0038,deal_025,mid,42127
+23f9701a-15a,quote_viewed,2026-02-14 12:26:00,buyer,buyer,,,Q-0057,deal_039,smb,2303
+bff608d3-6a6,quote_downloaded,2026-02-14 13:36:00,buyer,buyer,,,Q-0054,deal_036,mid,34381
+5cbc2118-a2b,quote_viewed,2026-02-14 14:16:00,buyer,buyer,,,Q-0057,deal_039,smb,2303
+7bc6024a-bd7,quote_downloaded,2026-02-15 08:54:00,buyer,buyer,,,Q-0054,deal_036,mid,34381
+dea1f770-e0b,deal_won,2026-02-15 09:02:00,user_004,Eric Larsson,48,DE,Q-0027,deal_017,mid,54710
+7680c6d7-ccb,deal_won,2026-02-16 08:19:00,user_009,Tom Bakker,10,UK,Q-0059,deal_041,smb,5961
+63c4da06-50e,deal_won,2026-02-17 08:19:00,user_003,Maaike de Vries,20,NL,Q-0020,deal_012,enterprise,240014
+f61dae20-5cc,quote_sent,2026-02-19 00:00:00,user_001,Sara van den Berg,24,NL,Q-0004,deal_003,mid,23280
+c7764e47-411,deal_won,2026-02-19 10:18:00,user_008,Anna Smit,4,NL,Q-0055,deal_037,smb,4686
+1399fea9-18c,quote_sent,2026-02-20 00:00:00,user_005,Mark Devos,30,BE,Q-0033,deal_021,mid,26720
+e7cea3c1-1be,quote_viewed,2026-02-20 18:53:00,buyer,buyer,,,Q-0004,deal_003,mid,23280
+c5b97a94-d09,quote_viewed,2026-02-20 23:11:00,buyer,buyer,,,Q-0004,deal_003,mid,23280
+99949de0-255,deal_won,2026-02-20 23:48:00,user_008,Anna Smit,4,NL,Q-0054,deal_036,mid,34381
+2d896e22-53b,quote_sent,2026-02-21 00:00:00,user_004,Eric Larsson,48,DE,Q-0029,deal_019,smb,6910
+cb031fc8-6f8,quote_viewed,2026-02-21 10:01:00,buyer,buyer,,,Q-0004,deal_003,mid,23280
+e6f31329-653,quote_viewed,2026-02-21 16:01:00,buyer,buyer,,,Q-0004,deal_003,mid,23280
+a77ff789-057,quote_viewed,2026-02-21 22:51:00,buyer,buyer,,,Q-0029,deal_019,smb,6910
+b48e2da9-822,quote_viewed,2026-02-21 22:53:00,buyer,buyer,,,Q-0033,deal_021,mid,26720
+0a87a8c3-4bd,quote_sent,2026-02-22 00:00:00,user_001,Sara van den Berg,24,NL,Q-0002,deal_002,smb,2127
+e3c1f26a-bae,quote_sent,2026-02-22 00:00:00,user_008,Anna Smit,4,NL,Q-0056,deal_038,mid,17265
+df558031-988,quote_viewed,2026-02-22 12:11:00,buyer,buyer,,,Q-0033,deal_021,mid,26720
+ecac2864-33e,quote_viewed,2026-02-22 13:20:00,buyer,buyer,,,Q-0004,deal_003,mid,23280
+0ea26484-fa1,quote_viewed,2026-02-22 16:15:00,buyer,buyer,,,Q-0004,deal_003,mid,23280
+5fe9ae44-d13,quote_viewed,2026-02-22 22:14:00,buyer,buyer,,,Q-0004,deal_003,mid,23280
+fdb606a4-0eb,quote_viewed,2026-02-23 08:33:00,buyer,buyer,,,Q-0029,deal_019,smb,6910
+6316921c-720,quote_viewed,2026-02-23 12:09:00,buyer,buyer,,,Q-0004,deal_003,mid,23280
+514abb3f-b42,quote_viewed,2026-02-23 18:50:00,buyer,buyer,,,Q-0056,deal_038,mid,17265
+9d5fa7fd-dd7,quote_viewed,2026-02-23 22:45:00,buyer,buyer,,,Q-0029,deal_019,smb,6910
+82f00dbe-9fa,quote_viewed,2026-02-23 23:44:00,buyer,buyer,,,Q-0056,deal_038,mid,17265
+2ae406c4-6ed,quote_sent,2026-02-24 00:00:00,user_001,Sara van den Berg,24,NL,Q-0003,deal_002,smb,2247
+50f27515-8b3,quote_sent,2026-02-24 00:00:00,user_004,Eric Larsson,48,DE,Q-0030,deal_020,smb,3948
+37c330f1-b67,quote_sent,2026-02-24 00:00:00,user_010,Sofia Klein,7,DE,Q-0070,deal_049,mid,42664
+390da247-a07,quote_viewed,2026-02-24 01:44:00,buyer,buyer,,,Q-0056,deal_038,mid,17265
+88de00e4-06e,quote_viewed,2026-02-24 04:10:00,buyer,buyer,,,Q-0029,deal_019,smb,6910
+b99aaf25-fa0,quote_viewed,2026-02-24 06:18:00,buyer,buyer,,,Q-0002,deal_002,smb,2127
+6f4049cc-30f,cloudsign_activity_clicked,2026-02-24 14:46:00,user_001,Sara van den Berg,24,NL,Q-0002,deal_002,smb,2127
+9c20ef10-941,cloudsign_activity_clicked,2026-02-24 15:42:00,user_008,Anna Smit,4,NL,Q-0056,deal_038,mid,17265
+b78b9929-fa1,cloudsign_activity_clicked,2026-02-24 18:22:00,user_001,Sara van den Berg,24,NL,Q-0003,deal_002,smb,2247
+c94cb2d3-ec3,quote_viewed,2026-02-24 21:22:00,buyer,buyer,,,Q-0029,deal_019,smb,6910
+3ae43ba2-ae0,quote_viewed,2026-02-25 04:10:00,buyer,buyer,,,Q-0003,deal_002,smb,2247
+99c5d220-7d2,quote_viewed,2026-02-25 08:36:00,buyer,buyer,,,Q-0056,deal_038,mid,17265
+fa39cd61-718,quote_feedback_sent,2026-02-25 12:19:00,buyer,buyer,,,Q-0029,deal_019,smb,6910
+dddfc9ee-0fc,quote_viewed,2026-02-25 19:44:00,buyer,buyer,,,Q-0003,deal_002,smb,2247
+97451918-928,quote_viewed,2026-02-25 23:24:00,buyer,buyer,,,Q-0003,deal_002,smb,2247
+35b24ceb-ece,deal_won,2026-02-26 01:46:00,user_005,Mark Devos,30,BE,Q-0033,deal_021,mid,26720
+4d3f615e-692,cloudsign_activity_clicked,2026-02-26 09:21:00,user_005,Mark Devos,30,BE,Q-0033,deal_021,mid,26720
+06800cac-235,quote_viewed,2026-02-26 10:12:00,buyer,buyer,,,Q-0003,deal_002,smb,2247
+77d14752-75a,quote_viewed,2026-02-26 16:33:00,buyer,buyer,,,Q-0003,deal_002,smb,2247
+9db12e52-d45,quote_sent,2026-02-27 00:00:00,user_001,Sara van den Berg,24,NL,Q-0001,deal_001,smb,9761
+94d3e5f5-464,quote_sent,2026-02-27 00:00:00,user_003,Maaike de Vries,20,NL,Q-0022,deal_014,mid,32103
+1d65696f-ca4,quote_viewed,2026-02-27 04:54:00,buyer,buyer,,,Q-0029,deal_019,smb,6910
+ecf14bf8-a42,quote_feedback_sent,2026-02-27 10:53:00,buyer,buyer,,,Q-0056,deal_038,mid,17265
+8927d959-fa4,quote_viewed,2026-02-27 14:11:00,buyer,buyer,,,Q-0029,deal_019,smb,6910
+fb8b4522-9df,quote_downloaded,2026-02-27 16:03:00,buyer,buyer,,,Q-0003,deal_002,smb,2247
+7aa2dd95-5b7,quote_viewed,2026-02-27 22:51:00,buyer,buyer,,,Q-0022,deal_014,mid,32103
+e7e52b14-a9f,quote_viewed,2026-02-27 23:23:00,buyer,buyer,,,Q-0056,deal_038,mid,17265
+93da960e-596,quote_sent,2026-02-28 00:00:00,user_004,Eric Larsson,48,DE,Q-0031,deal_020,smb,3271
+096e291e-778,quote_sent,2026-02-28 00:00:00,user_010,Sofia Klein,7,DE,Q-0071,deal_049,mid,42875
+49ad5d24-b7d,quote_viewed,2026-02-28 00:32:00,buyer,buyer,,,Q-0022,deal_014,mid,32103
+7fd6434e-960,quote_viewed,2026-02-28 08:14:00,buyer,buyer,,,Q-0022,deal_014,mid,32103
+f64b7d8d-2b6,quote_feedback_sent,2026-02-28 14:21:00,buyer,buyer,,,Q-0022,deal_014,mid,32103
+435b4d12-1ac,quote_sent,2026-03-01 00:00:00,user_010,Sofia Klein,7,DE,Q-0066,deal_046,mid,21583
+ee51360b-d97,quote_viewed,2026-03-01 03:36:00,buyer,buyer,,,Q-0022,deal_014,mid,32103
+0edbd0e6-760,cloudsign_activity_clicked,2026-03-01 10:14:00,user_010,Sofia Klein,7,DE,Q-0071,deal_049,mid,42875
+0653e3c7-445,quote_viewed,2026-03-01 13:04:00,buyer,buyer,,,Q-0071,deal_049,mid,42875
+c3af8960-37c,quote_sent,2026-03-02 00:00:00,user_002,David O'Connor,36,UK,Q-0015,deal_009,smb,6855
+df387553-a1d,quote_viewed,2026-03-02 06:14:00,buyer,buyer,,,Q-0022,deal_014,mid,32103
+3866f4e0-eeb,quote_viewed,2026-03-02 13:32:00,buyer,buyer,,,Q-0066,deal_046,mid,21583
+57cfdf68-904,cloudsign_activity_clicked,2026-03-02 19:22:00,user_004,Eric Larsson,48,DE,Q-0030,deal_020,smb,3948
+5dcee98d-231,quote_viewed,2026-03-02 19:33:00,buyer,buyer,,,Q-0022,deal_014,mid,32103
+776857fc-ab4,quote_viewed,2026-03-02 20:22:00,buyer,buyer,,,Q-0022,deal_014,mid,32103
+9f3da8f2-00c,quote_sent,2026-03-03 00:00:00,user_009,Tom Bakker,10,UK,Q-0063,deal_044,smb,8485
+f689e67f-f29,quote_viewed,2026-03-03 04:13:00,buyer,buyer,,,Q-0015,deal_009,smb,6855
+e0fef7e8-015,deal_won,2026-03-03 05:01:00,user_004,Eric Larsson,48,DE,Q-0029,deal_019,smb,6910
+77cca824-9fa,quote_viewed,2026-03-03 11:00:00,buyer,buyer,,,Q-0015,deal_009,smb,6855
+36e6dbe6-15e,cloudsign_activity_clicked,2026-03-03 18:37:00,user_003,Maaike de Vries,20,NL,Q-0022,deal_014,mid,32103
+4789d5ba-4f0,quote_viewed,2026-03-04 06:00:00,buyer,buyer,,,Q-0063,deal_044,smb,8485
+ec7752ad-cd0,quote_downloaded,2026-03-04 16:11:00,buyer,buyer,,,Q-0015,deal_009,smb,6855
+4d1e8f55-5ac,quote_viewed,2026-03-04 16:40:00,buyer,buyer,,,Q-0015,deal_009,smb,6855
+8a96ebe0-081,quote_sent,2026-03-05 00:00:00,user_004,Eric Larsson,48,DE,Q-0026,deal_016,mid,42317
+dcad4e6b-e2a,cloudsign_activity_clicked,2026-03-05 03:35:00,user_009,Tom Bakker,10,UK,Q-0063,deal_044,smb,8485
+5e51cd2d-8ec,quote_downloaded,2026-03-05 11:53:00,buyer,buyer,,,Q-0015,deal_009,smb,6855
+7a1405d0-ec8,quote_viewed,2026-03-05 12:27:00,buyer,buyer,,,Q-0022,deal_014,mid,32103
+9b34c601-f17,deal_won,2026-03-05 15:39:00,user_001,Sara van den Berg,24,NL,Q-0004,deal_003,mid,23280
+4561f70e-161,deal_won,2026-03-06 06:50:00,user_010,Sofia Klein,7,DE,Q-0066,deal_046,mid,21583
+f41ab872-da4,deal_won,2026-03-06 10:43:00,user_008,Anna Smit,4,NL,Q-0056,deal_038,mid,17265
+cd809fcb-f66,deal_won,2026-03-06 11:09:00,user_001,Sara van den Berg,24,NL,Q-0003,deal_002,smb,2247
+d41704e6-394,deal_won,2026-03-06 15:50:00,user_010,Sofia Klein,7,DE,Q-0071,deal_049,mid,42875
+5a439a23-089,quote_viewed,2026-03-06 18:53:00,buyer,buyer,,,Q-0026,deal_016,mid,42317
+416501fe-236,quote_viewed,2026-03-06 20:20:00,buyer,buyer,,,Q-0026,deal_016,mid,42317
+eb7ff415-c2d,quote_sent,2026-03-07 00:00:00,user_009,Tom Bakker,10,UK,Q-0064,deal_045,smb,4042
+cd93a6fd-589,quote_viewed,2026-03-07 20:19:00,buyer,buyer,,,Q-0026,deal_016,mid,42317
+54222a62-b22,quote_viewed,2026-03-08 20:21:00,buyer,buyer,,,Q-0026,deal_016,mid,42317
+358f00f6-085,quote_viewed,2026-03-08 21:17:00,buyer,buyer,,,Q-0064,deal_045,smb,4042
+9b4d0bdb-4a1,quote_viewed,2026-03-09 09:02:00,buyer,buyer,,,Q-0026,deal_016,mid,42317
+0a898a0f-847,quote_viewed,2026-03-09 09:30:00,buyer,buyer,,,Q-0026,deal_016,mid,42317
+48f704cb-01c,deal_won,2026-03-09 10:52:00,user_002,David O'Connor,36,UK,Q-0015,deal_009,smb,6855
+8456fd2e-ca4,quote_sent,2026-03-10 00:00:00,user_004,Eric Larsson,48,DE,Q-0032,deal_020,smb,3858
+4077ae8d-e3f,quote_viewed,2026-03-10 14:34:00,buyer,buyer,,,Q-0032,deal_020,smb,3858
+d3d1cb74-da9,deal_won,2026-03-10 21:00:00,user_003,Maaike de Vries,20,NL,Q-0022,deal_014,mid,32103
+24342491-cbc,quote_viewed,2026-03-10 23:02:00,buyer,buyer,,,Q-0032,deal_020,smb,3858
+09395178-6d4,quote_viewed,2026-03-11 10:41:00,buyer,buyer,,,Q-0026,deal_016,mid,42317
+d93ddcfc-d89,cloudsign_activity_clicked,2026-03-13 21:43:00,user_004,Eric Larsson,48,DE,Q-0032,deal_020,smb,3858
+0de8c494-b24,quote_sent,2026-03-14 00:00:00,user_009,Tom Bakker,10,UK,Q-0065,deal_045,smb,4250
+5a43462c-0f4,quote_viewed,2026-03-15 20:32:00,buyer,buyer,,,Q-0065,deal_045,smb,4250
+805a43d2-40d,quote_viewed,2026-03-16 04:20:00,buyer,buyer,,,Q-0065,deal_045,smb,4250
+416d971a-522,quote_viewed,2026-03-16 06:20:00,buyer,buyer,,,Q-0065,deal_045,smb,4250
+31309370-fef,quote_sent,2026-03-17 00:00:00,user_006,Pieter Janssens,8,BE,Q-0043,deal_028,mid,27991
+cc00c372-d83,quote_viewed,2026-03-17 06:40:00,buyer,buyer,,,Q-0065,deal_045,smb,4250
+9cde2d01-3c2,quote_viewed,2026-03-17 11:31:00,buyer,buyer,,,Q-0043,deal_028,mid,27991
+ee207924-49b,quote_viewed,2026-03-17 18:14:00,buyer,buyer,,,Q-0043,deal_028,mid,27991
+e9dccb9c-728,quote_sent,2026-03-18 00:00:00,user_007,Lisa Hofmann,6,FR,Q-0050,deal_032,mid,30424
+9d4aca73-8ac,quote_viewed,2026-03-18 08:09:00,buyer,buyer,,,Q-0065,deal_045,smb,4250
+681b468a-54f,quote_viewed,2026-03-18 09:41:00,buyer,buyer,,,Q-0043,deal_028,mid,27991
+af5d20dc-649,quote_viewed,2026-03-18 17:15:00,buyer,buyer,,,Q-0043,deal_028,mid,27991
+354ac515-c59,quote_viewed,2026-03-19 00:39:00,buyer,buyer,,,Q-0065,deal_045,smb,4250
+0e03e4c3-473,quote_viewed,2026-03-19 14:35:00,buyer,buyer,,,Q-0065,deal_045,smb,4250
+afb6296b-894,deal_won,2026-03-20 18:39:00,user_004,Eric Larsson,48,DE,Q-0026,deal_016,mid,42317
+535cb826-80e,quote_feedback_sent,2026-03-20 19:02:00,buyer,buyer,,,Q-0043,deal_028,mid,27991
+4e3f3f9d-fef,quote_sent,2026-03-21 00:00:00,user_007,Lisa Hofmann,6,FR,Q-0052,deal_034,smb,7134
+f1ab202b-979,quote_viewed,2026-03-23 03:18:00,buyer,buyer,,,Q-0052,deal_034,smb,7134
+9e666c80-388,deal_won,2026-03-25 15:50:00,user_009,Tom Bakker,10,UK,Q-0065,deal_045,smb,4250

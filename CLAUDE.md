@@ -22,7 +22,7 @@ CloudSign tracks five stages: Made available online → Viewed → Feedback → 
 - **Modjo** — sales + CS calls. Each call has an AI-generated summary + a full transcript. **Mixed Dutch and English.** Trust the transcript, not the summary, for verbatim quotes — the AI summarization sometimes paraphrases or reorders.
 - **Zendesk** — support tickets from reps and customers.
 - **Planhat** — CSM notes from enterprise accounts.
-- **Looker** — behavioral data: who clicks what, who closes what, what Cloudsign captured. Quote-level granularity.
+- **Amplitude** — product usage events: quote sends, views, downloads, deal outcomes. Event-level data exported as CSV. PMs can export directly from Amplitude charts without needing the data team.
 
 When you investigate a question across these sources, extract independently from each one (sub-agents) before synthesizing. Voice-averaging is one of the failure modes of qual analysis.
 
@@ -31,7 +31,7 @@ When you investigate a question across these sources, extract independently from
 - **GitHub** — this repo
 - **Modjo** — no native MCP. We wrap the API as a skill: see `.claude/skills/modjo-pull/`.
 - **Figma Dev Mode MCP** — used in prototyping (Segment 4). The Quotations file lives at: `https://www.figma.com/design/Jnt3WDFcanR9QISziry3Ht/Quotations`
-- **Looker** — currently CSV exports rather than live MCP. See `data/looker/`.
+- **Amplitude** — currently CSV exports rather than live MCP. See `data/amplitude/`.
 
 ## Rules to follow
 

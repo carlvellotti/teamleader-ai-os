@@ -27,11 +27,13 @@ If the finding is `findings/quote-tracking-finding.md` and the user says "Quote 
 
 Walk the template section by section. For each section:
 
-1. Ask **one** question (the question for that section, below).
-2. Wait for the user's answer.
+1. Use the **AskUserQuestion** tool to ask **one** question (the question for that section, below). Provide 3-4 concrete options based on the finding doc, plus the implicit "Other" for custom answers.
+2. Wait for the user's selection.
 3. Draft that section using the user's answer plus relevant evidence from the finding doc. Cite finding-doc evidence inline with file references like `(@quote-tracking-finding.md L34)`.
 4. Write the section to disk progressively. A crash mid-PRD shouldn't lose work.
 5. Move to the next section.
+
+Pace yourself — one AskUserQuestion call per section. Don't batch questions.
 
 ### Section 1 — Problem
 > *"What's wrong today, and how do we know? Cite specific evidence — calls, tickets, behavior — not just intuition. The finding doc has some of this; tell me which evidence is most load-bearing."*
